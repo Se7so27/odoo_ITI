@@ -1,0 +1,1214 @@
+2026-06-06 22:01:16,158 112395 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:01:16,158 112395 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:01:16,158 112395 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:01:16,158 112395 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/enterprise', skipped 
+2026-06-06 22:01:16,158 112395 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/tutorials', skipped 
+2026-06-06 22:01:16,158 112395 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-06-06 22:01:16,158 112395 INFO ? odoo: Odoo version 19.0 
+2026-06-06 22:01:16,158 112395 INFO ? odoo: Using configuration file at /home/isaac/src/odoo/odoo.conf 
+2026-06-06 22:01:16,158 112395 INFO ? odoo: addons paths: _NamespacePath(['/home/isaac/src/odoo/odoo/addons', '/home/isaac/.local/share/Odoo/addons/19.0', '/home/isaac/src/odoo/addons']) 
+2026-06-06 22:01:16,158 112395 INFO ? odoo: database: isaac@default:default 
+2026-06-06 22:01:28,990 112403 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:01:28,990 112403 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:01:28,990 112403 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:01:28,990 112403 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/enterprise', skipped 
+2026-06-06 22:01:28,990 112403 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/tutorials', skipped 
+2026-06-06 22:01:28,990 112403 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-06-06 22:01:28,990 112403 INFO ? odoo: Odoo version 19.0 
+2026-06-06 22:01:28,990 112403 INFO ? odoo: Using configuration file at /home/isaac/src/odoo/odoo.conf 
+2026-06-06 22:01:28,990 112403 INFO ? odoo: addons paths: _NamespacePath(['/home/isaac/src/odoo/odoo/addons', '/home/isaac/.local/share/Odoo/addons/19.0', '/home/isaac/src/odoo/addons']) 
+2026-06-06 22:01:28,990 112403 INFO ? odoo: database: isaac@default:default 
+2026-06-06 22:01:29,189 112403 INFO ? odoo.service.server: HTTP service (werkzeug) running on Se7s0:8069 
+2026-06-06 22:01:29,197 112403 INFO rd-demo odoo.modules.loading: loading 1 modules... 
+2026-06-06 22:01:29,200 112403 INFO rd-demo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-06-06 22:01:29,204 112403 INFO rd-demo odoo.modules.loading: loading 14 modules... 
+2026-06-06 22:01:29,331 112403 INFO rd-demo odoo.modules.loading: 14 modules loaded in 0.13s, 0 queries (+0 extra) 
+2026-06-06 22:01:29,357 112403 INFO rd-demo odoo.modules.loading: Modules loaded. 
+2026-06-06 22:01:29,367 112403 INFO rd-demo odoo.registry: Registry loaded in 0.177s 
+2026-06-06 22:01:38,080 112403 INFO rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-06-06 22:01:38,478 112403 INFO rd-demo odoo.addons.base.models.res_users: Login failed for login:admin from 127.0.0.1 
+2026-06-06 22:01:38,550 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:01:38] "POST /web/login HTTP/1.1" 200 - 59 0.012 0.459
+2026-06-06 22:01:38,579 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:01:38] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.001 0.003
+2026-06-06 22:01:38,979 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:01:38] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 6 0.001 0.003
+2026-06-06 22:02:00,857 112403 INFO rd-demo odoo.addons.base.models.res_users: Login failed for login:admin from 127.0.0.1 
+2026-06-06 22:02:00,859 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:00] "POST /web/login HTTP/1.1" 200 - 8 0.002 0.395
+2026-06-06 22:02:00,880 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:00] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.001 0.003
+2026-06-06 22:02:01,278 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:01] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 5 0.001 0.003
+2026-06-06 22:02:01,707 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:01] "POST /auth/passkey/start-auth HTTP/1.1" 200 - 7 0.002 0.004
+2026-06-06 22:02:05,130 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/database/manager HTTP/1.1" 200 - 6 0.001 0.023
+2026-06-06 22:02:05,154 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:02:05,158 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:02:05,158 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:02:05,159 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:02:05,160 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 0 0.000 0.005
+2026-06-06 22:02:05,161 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:02:05,161 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:02:05,163 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:02:05,164 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:02:05,165 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:02:05,171 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:02:05,172 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:02:05,172 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:02:05,172 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:02:05,173 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 200 - 0 0.000 0.005
+2026-06-06 22:02:05,173 112403 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:05] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:02:08,880 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:08] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 5 0.001 0.003
+2026-06-06 22:02:16,025 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:16] "GET / HTTP/1.1" 303 - 4 0.001 0.003
+2026-06-06 22:02:16,042 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:16] "GET /odoo HTTP/1.1" 303 - 4 0.001 0.003
+2026-06-06 22:02:16,051 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:16] "GET /web/login?redirect=/odoo? HTTP/1.1" 200 - 6 0.001 0.004
+2026-06-06 22:02:16,079 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:16] "GET /web/binary/company_logo HTTP/1.1" 304 - 5 0.001 0.003
+2026-06-06 22:02:16,578 112403 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:02:16] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 5 0.001 0.003
+2026-06-06 22:02:45,439 112403 INFO rd-demo odoo.service.server: Initiating shutdown 
+2026-06-06 22:02:45,440 112403 INFO rd-demo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-06-06 22:02:45,605 112403 INFO rd-demo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2026-06-06 22:02:45,609 112403 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-06-06 22:02:48,401 112560 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:02:48,401 112560 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:02:48,401 112560 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:02:48,401 112560 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/enterprise', skipped 
+2026-06-06 22:02:48,401 112560 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/tutorials', skipped 
+2026-06-06 22:02:48,401 112560 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-06-06 22:02:48,401 112560 INFO ? odoo: Odoo version 19.0 
+2026-06-06 22:02:48,401 112560 INFO ? odoo: Using configuration file at /home/isaac/src/odoo/odoo.conf 
+2026-06-06 22:02:48,401 112560 INFO ? odoo: addons paths: _NamespacePath(['/home/isaac/src/odoo/odoo/addons', '/home/isaac/.local/share/Odoo/addons/19.0', '/home/isaac/src/odoo/addons']) 
+2026-06-06 22:02:48,401 112560 INFO ? odoo: database: isaac@default:default 
+2026-06-06 22:02:48,578 112560 INFO ? odoo.service.server: HTTP service (werkzeug) running on Se7s0:8069 
+2026-06-06 22:02:48,585 112560 INFO rd-demo odoo.modules.loading: loading 1 modules... 
+2026-06-06 22:02:48,588 112560 INFO rd-demo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-06-06 22:02:48,590 112560 INFO rd-demo odoo.modules.loading: loading 14 modules... 
+2026-06-06 22:02:48,710 112560 INFO rd-demo odoo.modules.loading: 14 modules loaded in 0.12s, 0 queries (+0 extra) 
+2026-06-06 22:02:48,734 112560 INFO rd-demo odoo.modules.loading: Modules loaded. 
+2026-06-06 22:02:48,742 112560 INFO rd-demo odoo.registry: Registry loaded in 0.163s 
+2026-06-06 22:03:47,004 112600 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:03:47,004 112600 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:03:47,004 112600 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:03:47,004 112600 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/enterprise', skipped 
+2026-06-06 22:03:47,004 112600 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/tutorials', skipped 
+2026-06-06 22:03:47,004 112600 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-06-06 22:03:47,004 112600 INFO ? odoo: Odoo version 19.0 
+2026-06-06 22:03:47,004 112600 INFO ? odoo: Using configuration file at /home/isaac/src/odoo/odoo.conf 
+2026-06-06 22:03:47,004 112600 INFO ? odoo: addons paths: _NamespacePath(['/home/isaac/src/odoo/odoo/addons', '/home/isaac/.local/share/Odoo/addons/19.0', '/home/isaac/src/odoo/addons']) 
+2026-06-06 22:03:47,004 112600 INFO ? odoo: database: isaac@default:default 
+2026-06-06 22:03:58,098 112560 INFO rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-06-06 22:03:58,108 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET / HTTP/1.1" 303 - 5 0.001 0.010
+2026-06-06 22:03:58,112 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /odoo HTTP/1.1" 303 - 1 0.000 0.002
+2026-06-06 22:03:58,190 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /web/login?redirect=/odoo? HTTP/1.1" 200 - 48 0.009 0.066
+2026-06-06 22:03:58,215 112560 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:03:58,222 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /web/assets/7f81e3c/web.assets_frontend.min.css HTTP/1.1" 200 - 4 0.002 0.007
+2026-06-06 22:03:58,226 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.003 0.007
+2026-06-06 22:03:58,241 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /web/assets/81b83c4/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 4 0.001 0.002
+2026-06-06 22:03:58,275 112560 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:03:58,277 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /web/assets/71db2f5/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 4 0.001 0.003
+2026-06-06 22:03:58,370 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:03:58] "GET /web/webclient/translations?hash=&lang= HTTP/1.1" 200 - 3 0.001 0.002
+2026-06-06 22:04:00,176 112560 INFO rd-demo odoo.addons.base.models.res_users: Login failed for login:isaacgawergy@gmail.com from 127.0.0.1 
+2026-06-06 22:04:00,177 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:04:00] "POST /web/login HTTP/1.1" 200 - 6 0.001 0.003
+2026-06-06 22:04:00,197 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:04:00] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.001 0.002
+2026-06-06 22:04:00,238 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:04:00] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 22:05:01,776 112560 INFO rd-demo odoo.addons.base.models.res_users: Login failed for login:isaac from 127.0.0.1 
+2026-06-06 22:05:01,778 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:05:01] "POST /web/login HTTP/1.1" 200 - 4 0.001 0.005
+2026-06-06 22:05:01,804 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:05:01] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.001 0.002
+2026-06-06 22:05:01,832 112560 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:05:01] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 22:05:47,104 112560 INFO rd-demo odoo.service.server: Initiating shutdown 
+2026-06-06 22:05:47,105 112560 INFO rd-demo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-06-06 22:05:47,385 112560 INFO rd-demo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 4 connections  
+2026-06-06 22:05:47,391 112560 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-06-06 22:05:48,688 112801 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:05:48,688 112801 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:05:48,688 112801 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:05:48,688 112801 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/enterprise', skipped 
+2026-06-06 22:05:48,688 112801 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/tutorials', skipped 
+2026-06-06 22:05:48,688 112801 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-06-06 22:05:48,688 112801 INFO ? odoo: Odoo version 19.0 
+2026-06-06 22:05:48,688 112801 INFO ? odoo: Using configuration file at /home/isaac/src/odoo/odoo.conf 
+2026-06-06 22:05:48,688 112801 INFO ? odoo: addons paths: _NamespacePath(['/home/isaac/src/odoo/odoo/addons', '/home/isaac/.local/share/Odoo/addons/19.0', '/home/isaac/src/odoo/addons']) 
+2026-06-06 22:05:48,688 112801 INFO ? odoo: database: isaac@default:default 
+2026-06-06 22:05:48,859 112801 INFO ? odoo.service.server: HTTP service (werkzeug) running on Se7s0:8069 
+2026-06-06 22:05:48,866 112801 INFO rd-demo odoo.modules.loading: loading 1 modules... 
+2026-06-06 22:05:48,868 112801 INFO rd-demo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-06-06 22:05:48,871 112801 INFO rd-demo odoo.modules.loading: loading 14 modules... 
+2026-06-06 22:05:48,982 112801 INFO rd-demo odoo.modules.loading: 14 modules loaded in 0.11s, 0 queries (+0 extra) 
+2026-06-06 22:05:49,005 112801 INFO rd-demo odoo.modules.loading: Modules loaded. 
+2026-06-06 22:05:49,012 112801 INFO rd-demo odoo.registry: Registry loaded in 0.153s 
+2026-06-06 22:05:55,778 112801 INFO rd-demo odoo.service.server: Initiating shutdown 
+2026-06-06 22:05:55,779 112801 INFO rd-demo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-06-06 22:05:55,868 112801 INFO rd-demo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2026-06-06 22:05:55,873 112801 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-06-06 22:06:01,167 112825 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:06:01,167 112825 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:06:01,167 112825 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-06 22:06:01,167 112825 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/enterprise', skipped 
+2026-06-06 22:06:01,167 112825 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/tutorials', skipped 
+2026-06-06 22:06:01,167 112825 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-06-06 22:06:01,167 112825 INFO ? odoo: Odoo version 19.0 
+2026-06-06 22:06:01,167 112825 INFO ? odoo: Using configuration file at /home/isaac/src/odoo/odoo.conf 
+2026-06-06 22:06:01,167 112825 INFO ? odoo: addons paths: _NamespacePath(['/home/isaac/src/odoo/odoo/addons', '/home/isaac/.local/share/Odoo/addons/19.0', '/home/isaac/src/odoo/addons']) 
+2026-06-06 22:06:01,167 112825 INFO ? odoo: database: isaac@default:default 
+2026-06-06 22:06:01,357 112825 INFO ? odoo.service.server: HTTP service (werkzeug) running on Se7s0:8069 
+2026-06-06 22:06:01,364 112825 INFO rd-demo odoo.modules.loading: loading 1 modules... 
+2026-06-06 22:06:01,367 112825 INFO rd-demo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-06-06 22:06:01,370 112825 INFO rd-demo odoo.modules.loading: loading 14 modules... 
+2026-06-06 22:06:01,497 112825 INFO rd-demo odoo.modules.loading: 14 modules loaded in 0.13s, 0 queries (+0 extra) 
+2026-06-06 22:06:01,521 112825 INFO rd-demo odoo.modules.loading: Modules loaded. 
+2026-06-06 22:06:01,529 112825 INFO rd-demo odoo.registry: Registry loaded in 0.172s 
+2026-06-06 22:06:04,430 112825 INFO rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-06-06 22:06:04,440 112825 INFO rd-demo odoo.addons.base.models.res_users: Login failed for login:isaac from 127.0.0.1 
+2026-06-06 22:06:04,515 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:04] "POST /web/login HTTP/1.1" 200 - 54 0.012 0.075
+2026-06-06 22:06:04,547 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:04] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.002 0.003
+2026-06-06 22:06:04,576 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:04] "GET /web/webclient/translations?hash=f6edbf8f3d4b4718c81674d8056d895de3641cc4&lang= HTTP/1.1" 200 - 3 0.001 0.003
+2026-06-06 22:06:13,806 112825 INFO rd-demo odoo.addons.base.models.res_users: Login successful for login:admin from 127.0.0.1 
+2026-06-06 22:06:13,812 112825 INFO rd-demo odoo.registry: Caches invalidated, signaling through the database: ['default'] 
+2026-06-06 22:06:13,816 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:13] "POST /web/login HTTP/1.1" 303 - 27 0.008 0.395
+2026-06-06 22:06:13,820 112825 INFO rd-demo odoo.addons.base.models.res_device: User 2 inserts device log (YGjGur5-Ca7rMQx_g2nT5YAO5y-OK-uB4a2GvfI-7y) 
+2026-06-06 22:06:13,916 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:13] "GET /odoo HTTP/1.1" 200 - 50 0.012 0.086
+2026-06-06 22:06:13,949 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:13] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.004 0.010
+2026-06-06 22:06:13,951 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:13] "GET /web/webclient/load_menus HTTP/1.1" 200 - 12 0.006 0.011
+2026-06-06 22:06:14,809 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/330447a/web.assets_web.min.css (id:17) 
+2026-06-06 22:06:14,817 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:14] "GET /web/assets/330447a/web.assets_web.min.css HTTP/1.1" 200 - 15 0.023 0.860
+2026-06-06 22:06:15,726 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/717be9d/web.assets_web_print.min.css (id:18) 
+2026-06-06 22:06:15,736 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:15] "GET /web/assets/717be9d/web.assets_web_print.min.css HTTP/1.1" 200 - 8 0.016 0.900
+2026-06-06 22:06:16,490 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/e6017c3/web.assets_web.min.js (id:19) 
+2026-06-06 22:06:16,496 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /web/assets/e6017c3/web.assets_web.min.js HTTP/1.1" 200 - 11 0.006 2.557
+2026-06-06 22:06:16,648 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 1 0.001 0.003
+2026-06-06 22:06:16,648 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,671 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.004 0.003
+2026-06-06 22:06:16,673 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/fc84907/bus.websocket_worker_assets.min.js (id:20) 
+2026-06-06 22:06:16,675 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 200 - 8 0.002 0.018
+2026-06-06 22:06:16,692 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /odoo/offline HTTP/1.1" 200 - 6 0.003 0.010
+2026-06-06 22:06:16,693 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /odoo HTTP/1.1" 200 - 9 0.004 0.010
+2026-06-06 22:06:16,703 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.007
+2026-06-06 22:06:16,712 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "POST /web/action/load HTTP/1.1" 200 - 10 0.013 0.008
+2026-06-06 22:06:16,713 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.013
+2026-06-06 22:06:16,719 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /web/image/res.partner/3/avatar_128?unique=1780772773000 HTTP/1.1" 200 - 11 0.014 0.010
+2026-06-06 22:06:16,719 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.016 0.009
+2026-06-06 22:06:16,773 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.011 0.021
+2026-06-06 22:06:16,786 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 22:06:16,805 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.012 0.009
+2026-06-06 22:06:16,809 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-06-06 22:06:16,825 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.035
+2026-06-06 22:06:16,869 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.001
+2026-06-06 22:06:16,922 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:06:16,924 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,926 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:16,927 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:16,928 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:16,928 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-06-06 22:06:16,934 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,937 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,937 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-06-06 22:06:16,940 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-06-06 22:06:16,941 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-06-06 22:06:16,942 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:16,942 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:16,956 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,956 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,957 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:16,957 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:16,958 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:16,958 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:16,970 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,970 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:16,971 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:16,971 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:16,972 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:16,973 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /marketing_card/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:16,976 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:06:16,987 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,988 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:16,994 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-06-06 22:06:16,994 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-06-06 22:06:16,996 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2026-06-06 22:06:16,997 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.009
+2026-06-06 22:06:16,998 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:16,999 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:16] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:17,008 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:17,009 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:17,010 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.004
+2026-06-06 22:06:17,011 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:17,013 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:17,014 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:17,018 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:17,019 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:17,019 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:17,022 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:17,025 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-06-06 22:06:17,025 112825 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-06-06 22:06:17,029 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-06-06 22:06:17,030 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2026-06-06 22:06:17,030 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-06-06 22:06:17,031 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-06-06 22:06:17,034 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 22:06:17,034 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2026-06-06 22:06:17,038 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:06:17,039 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:06:17,039 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:06:17] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:38:53,159 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:38:53] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.012
+2026-06-06 22:38:53,209 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:38:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.002 0.012
+2026-06-06 22:38:53,220 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:38:53] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.006 0.011
+2026-06-06 22:38:53,254 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:38:53] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.004
+2026-06-06 22:38:53,255 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:38:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.031 0.028
+2026-06-06 22:38:53,260 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:38:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.008 0.053
+2026-06-06 22:39:03,842 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.022 0.030
+2026-06-06 22:39:03,859 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.002 0.005
+2026-06-06 22:39:03,875 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:03] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.004
+2026-06-06 22:39:03,901 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:03] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:39:06,641 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.024 0.028
+2026-06-06 22:39:06,658 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.004
+2026-06-06 22:39:06,672 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:06] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.004
+2026-06-06 22:39:09,238 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "GET /odoo/apps HTTP/1.1" 200 - 9 0.005 0.014
+2026-06-06 22:39:09,301 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.003
+2026-06-06 22:39:09,326 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.002 0.003
+2026-06-06 22:39:09,335 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "GET /web/static/img/odoo-icon-512x512.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:39:09,593 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "GET /web/webclient/translations?hash=ae90ab5f4c0da288bd95c52216c35e6c1d2849e7&lang=en_US HTTP/1.1" 200 - 1 0.001 0.003
+2026-06-06 22:39:09,599 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.003
+2026-06-06 22:39:09,649 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.005 0.010
+2026-06-06 22:39:09,660 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 2 0.003 0.018
+2026-06-06 22:39:09,664 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.006
+2026-06-06 22:39:09,690 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.016
+2026-06-06 22:39:09,695 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.003 0.026
+2026-06-06 22:39:09,701 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 22:39:09,812 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 22:39:09,914 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:09] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.004
+2026-06-06 22:39:11,555 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:11] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2026-06-06 22:39:13,377 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.005 0.008
+2026-06-06 22:39:13,400 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:13] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.006
+2026-06-06 22:39:13,407 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.029 0.032
+2026-06-06 22:39:15,317 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.028 0.025
+2026-06-06 22:39:15,319 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:15] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.006 0.047
+2026-06-06 22:39:15,403 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:15] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.003
+2026-06-06 22:39:16,160 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.026 0.023
+2026-06-06 22:39:16,196 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.006 0.075
+2026-06-06 22:39:16,262 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:16] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 22:39:16,318 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:16] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:39:16,318 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:16] "GET /pos_mollie/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:39:18,700 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:18] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.005 0.009
+2026-06-06 22:39:18,721 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:18] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.007
+2026-06-06 22:39:18,725 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:18] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.028 0.030
+2026-06-06 22:39:20,336 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.026 0.025
+2026-06-06 22:39:20,346 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:20] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.006 0.051
+2026-06-06 22:39:20,404 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:39:20] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 22:40:33,917 112825 INFO rd-demo odoo.addons.base.models.res_users: Login successful for login:admin from 127.0.0.1 
+2026-06-06 22:40:33,925 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:33] "POST /web/login HTTP/1.1" 303 - 18 0.009 0.595
+2026-06-06 22:40:33,931 112825 INFO rd-demo odoo.addons.base.models.res_device: User 2 inserts device log (3P-8jQ0XkwD2v4DyCZOhHoNlJIYqU1-1IZw8M6fXZX) 
+2026-06-06 22:40:33,942 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:33] "GET /odoo HTTP/1.1" 200 - 10 0.004 0.010
+2026-06-06 22:40:33,996 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:33] "GET /web/assets/e6017c3/web.assets_web.min.js HTTP/1.1" 200 - 3 0.002 0.007
+2026-06-06 22:40:34,000 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:34] "GET /web/assets/330447a/web.assets_web.min.css HTTP/1.1" 200 - 3 0.004 0.007
+2026-06-06 22:40:34,329 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:34] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.004
+2026-06-06 22:40:34,342 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:34] "GET /web/assets/717be9d/web.assets_web_print.min.css HTTP/1.1" 200 - 3 0.002 0.010
+2026-06-06 22:40:34,571 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:34] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 4 0.002 0.004
+2026-06-06 22:40:36,371 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 22:40:36,422 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 22:40:36,431 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 200 - 3 0.001 0.004
+2026-06-06 22:40:36,439 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 22:40:36,461 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /odoo/offline HTTP/1.1" 200 - 2 0.003 0.006
+2026-06-06 22:40:36,466 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /odoo HTTP/1.1" 200 - 9 0.006 0.010
+2026-06-06 22:40:36,550 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.011
+2026-06-06 22:40:36,554 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /web/image/res.partner/3/avatar_128?unique=1780772773000 HTTP/1.1" 200 - 7 0.016 0.015
+2026-06-06 22:40:36,554 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.020 0.012
+2026-06-06 22:40:36,561 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "POST /web/action/load HTTP/1.1" 200 - 10 0.024 0.012
+2026-06-06 22:40:36,713 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 2 0.002 0.009
+2026-06-06 22:40:36,831 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.006
+2026-06-06 22:40:36,877 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.026 0.025
+2026-06-06 22:40:36,886 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.004 0.043
+2026-06-06 22:40:36,988 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:36] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 22:40:37,073 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:37] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 22:40:37,119 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:40:37] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.003
+2026-06-06 22:42:01,524 112825 INFO rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Sales'] to user admin #2 via 127.0.0.1 
+2026-06-06 22:42:01,524 112825 INFO rd-demo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-06-06 22:42:01,526 112825 INFO rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Sales'] to user admin #2 via 127.0.0.1 
+2026-06-06 22:42:01,776 112825 INFO rd-demo odoo.modules.loading: loading 1 modules... 
+2026-06-06 22:42:01,785 112825 INFO rd-demo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-06-06 22:42:01,838 112825 INFO rd-demo odoo.modules.loading: updating modules list 
+2026-06-06 22:42:01,839 112825 INFO rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-06-06 22:42:03,366 112825 INFO rd-demo odoo.modules.loading: loading 56 modules... 
+2026-06-06 22:42:03,373 112825 INFO rd-demo odoo.modules.loading: Loading module uom (15/56) 
+2026-06-06 22:42:03,421 112825 INFO rd-demo odoo.registry: module uom: creating or updating database tables 
+2026-06-06 22:42:03,502 112825 INFO rd-demo odoo.modules.loading: loading uom/data/uom_data.xml 
+2026-06-06 22:42:03,570 112825 INFO rd-demo odoo.modules.loading: loading uom/security/uom_security.xml 
+2026-06-06 22:42:03,575 112825 INFO rd-demo odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2026-06-06 22:42:03,585 112825 INFO rd-demo odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2026-06-06 22:42:03,623 112825 INFO rd-demo odoo.modules.loading: Module uom loaded in 0.25s, 229 queries (+232 other) 
+2026-06-06 22:42:03,623 112825 INFO rd-demo odoo.modules.loading: Loading module http_routing (16/56) 
+2026-06-06 22:42:03,635 112825 INFO rd-demo odoo.registry: module http_routing: creating or updating database tables 
+2026-06-06 22:42:03,655 112825 INFO rd-demo odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2026-06-06 22:42:03,700 112825 INFO rd-demo odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2026-06-06 22:42:03,731 112825 INFO rd-demo odoo.modules.loading: Module http_routing loaded in 0.11s, 114 queries (+114 other) 
+2026-06-06 22:42:03,731 112825 INFO rd-demo odoo.modules.loading: Loading module onboarding (17/56) 
+2026-06-06 22:42:03,745 112825 INFO rd-demo odoo.registry: module onboarding: creating or updating database tables 
+2026-06-06 22:42:03,909 112825 INFO rd-demo odoo.modules.loading: loading onboarding/views/onboarding_templates.xml 
+2026-06-06 22:42:03,926 112825 INFO rd-demo odoo.modules.loading: loading onboarding/views/onboarding_views.xml 
+2026-06-06 22:42:04,050 112825 INFO rd-demo odoo.modules.loading: loading onboarding/views/onboarding_menus.xml 
+2026-06-06 22:42:04,063 112825 INFO rd-demo odoo.modules.loading: loading onboarding/security/ir.model.access.csv 
+2026-06-06 22:42:04,103 112825 INFO rd-demo odoo.modules.loading: Module onboarding loaded in 0.37s, 246 queries (+246 other) 
+2026-06-06 22:42:04,104 112825 INFO rd-demo odoo.modules.loading: Loading module resource (18/56) 
+2026-06-06 22:42:04,160 112825 INFO rd-demo odoo.registry: module resource: creating or updating database tables 
+2026-06-06 22:42:04,419 112825 INFO rd-demo odoo.modules.loading: loading resource/data/resource_data.xml 
+2026-06-06 22:42:04,452 112825 INFO rd-demo odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2026-06-06 22:42:04,475 112825 INFO rd-demo odoo.modules.loading: loading resource/security/resource_security.xml 
+2026-06-06 22:42:04,520 112825 INFO rd-demo odoo.modules.loading: loading resource/views/resource_resource_views.xml 
+2026-06-06 22:42:04,565 112825 INFO rd-demo odoo.modules.loading: loading resource/views/resource_calendar_leaves_views.xml 
+2026-06-06 22:42:04,631 112825 INFO rd-demo odoo.modules.loading: loading resource/views/resource_calendar_attendance_views.xml 
+2026-06-06 22:42:04,648 112825 INFO rd-demo odoo.modules.loading: loading resource/views/resource_calendar_views.xml 
+2026-06-06 22:42:04,691 112825 INFO rd-demo odoo.modules.loading: loading resource/views/menuitems.xml 
+2026-06-06 22:42:04,743 112825 INFO rd-demo odoo.modules.loading: Module resource loaded in 0.64s, 414 queries (+414 other) 
+2026-06-06 22:42:04,743 112825 INFO rd-demo odoo.modules.loading: Loading module utm (19/56) 
+2026-06-06 22:42:04,772 112825 INFO rd-demo odoo.registry: module utm: creating or updating database tables 
+2026-06-06 22:42:04,986 112825 INFO rd-demo odoo.modules.loading: loading utm/data/utm_medium_data.xml 
+2026-06-06 22:42:05,026 112825 INFO rd-demo odoo.modules.loading: loading utm/data/utm_source_data.xml 
+2026-06-06 22:42:05,061 112825 INFO rd-demo odoo.modules.loading: loading utm/data/utm_stage_data.xml 
+2026-06-06 22:42:05,068 112825 INFO rd-demo odoo.modules.loading: loading utm/data/utm_tag_data.xml 
+2026-06-06 22:42:05,075 112825 INFO rd-demo odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2026-06-06 22:42:05,141 112825 INFO rd-demo odoo.modules.loading: loading utm/views/utm_medium_views.xml 
+2026-06-06 22:42:05,175 112825 INFO rd-demo odoo.modules.loading: loading utm/views/utm_source_views.xml 
+2026-06-06 22:42:05,200 112825 INFO rd-demo odoo.modules.loading: loading utm/views/utm_stage_views.xml 
+2026-06-06 22:42:05,235 112825 INFO rd-demo odoo.modules.loading: loading utm/views/utm_tag_views.xml 
+2026-06-06 22:42:05,253 112825 INFO rd-demo odoo.modules.loading: loading utm/views/utm_menus.xml 
+2026-06-06 22:42:05,292 112825 INFO rd-demo odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2026-06-06 22:42:05,330 112825 INFO rd-demo odoo.modules.loading: Module utm loaded in 0.59s, 410 queries (+410 other) 
+2026-06-06 22:42:05,330 112825 INFO rd-demo odoo.modules.loading: Loading module mail (20/56) 
+2026-06-06 22:42:05,423 112825 INFO rd-demo odoo.registry: module mail: creating or updating database tables 
+2026-06-06 22:42:06,051 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2026-06-06 22:42:06,051 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2026-06-06 22:42:06,051 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2026-06-06 22:42:06,051 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.template_id 
+2026-06-06 22:42:06,051 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.followers_type 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.followers_partner_field_name 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.activity_note 
+2026-06-06 22:42:06,052 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2026-06-06 22:42:06,139 112825 INFO rd-demo odoo.models: Prepare computation of res.users.notification_type 
+2026-06-06 22:42:06,279 112825 INFO rd-demo odoo.models: Prepare computation of res.partner.email_normalized 
+2026-06-06 22:42:08,455 112825 INFO rd-demo odoo.modules.loading: loading mail/data/mail_groups.xml 
+2026-06-06 22:42:08,482 112825 INFO rd-demo odoo.modules.loading: loading mail/wizard/mail_activity_schedule_views.xml 
+2026-06-06 22:42:08,496 112825 INFO rd-demo odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2026-06-06 22:42:08,503 112825 INFO rd-demo odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2026-06-06 22:42:08,525 112825 INFO rd-demo odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2026-06-06 22:42:08,536 112825 INFO rd-demo odoo.modules.loading: loading mail/wizard/mail_followers_edit_views.xml 
+2026-06-06 22:42:08,550 112825 INFO rd-demo odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2026-06-06 22:42:08,560 112825 INFO rd-demo odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2026-06-06 22:42:08,581 112825 INFO rd-demo odoo.modules.loading: loading mail/views/ir_cron_views.xml 
+2026-06-06 22:42:08,594 112825 INFO rd-demo odoo.modules.loading: loading mail/views/ir_filters_views.xml 
+2026-06-06 22:42:08,613 112825 INFO rd-demo odoo.modules.loading: loading mail/views/ir_mail_server_views.xml 
+2026-06-06 22:42:08,626 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2026-06-06 22:42:08,642 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_tracking_value_views.xml 
+2026-06-06 22:42:08,654 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2026-06-06 22:42:08,665 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2026-06-06 22:42:08,691 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2026-06-06 22:42:08,706 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2026-06-06 22:42:08,728 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2026-06-06 22:42:08,739 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2026-06-06 22:42:08,758 112825 INFO rd-demo odoo.modules.loading: loading mail/views/discuss_channel_member_views.xml 
+2026-06-06 22:42:08,769 112825 INFO rd-demo odoo.modules.loading: loading mail/views/discuss_channel_rtc_session_views.xml 
+2026-06-06 22:42:08,784 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2026-06-06 22:42:08,801 112825 INFO rd-demo odoo.modules.loading: loading mail/views/discuss/discuss_gif_favorite_views.xml 
+2026-06-06 22:42:08,812 112825 INFO rd-demo odoo.modules.loading: loading mail/views/discuss_channel_views.xml 
+2026-06-06 22:42:08,846 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_canned_response_views.xml 
+2026-06-06 22:42:08,874 112825 INFO rd-demo odoo.modules.loading: loading mail/views/res_role_views.xml 
+2026-06-06 22:42:08,895 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2026-06-06 22:42:09,009 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_activity_plan_views.xml 
+2026-06-06 22:42:09,062 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_activity_plan_template_views.xml 
+2026-06-06 22:42:09,076 112825 INFO rd-demo odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2026-06-06 22:42:09,110 112825 INFO rd-demo odoo.modules.loading: loading mail/data/ir_config_parameter_data.xml 
+2026-06-06 22:42:09,116 112825 INFO rd-demo odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2026-06-06 22:42:09,202 112825 INFO rd-demo odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2026-06-06 22:42:09,212 112825 INFO rd-demo odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2026-06-06 22:42:09,241 112825 INFO rd-demo odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2026-06-06 22:42:09,276 112825 INFO rd-demo odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2026-06-06 22:42:09,309 112825 INFO rd-demo odoo.modules.loading: loading mail/data/discuss_channel_data.xml 
+2026-06-06 22:42:09,387 112825 INFO rd-demo odoo.modules.loading: loading mail/data/mail_activity_type_data.xml 
+2026-06-06 22:42:09,410 112825 INFO rd-demo odoo.modules.loading: loading mail/data/security_notifications_templates.xml 
+2026-06-06 22:42:09,420 112825 INFO rd-demo odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2026-06-06 22:42:09,620 112825 INFO rd-demo odoo.modules.loading: loading mail/data/ir_actions_client.xml 
+2026-06-06 22:42:09,630 112825 INFO rd-demo odoo.modules.loading: loading mail/security/mail_security.xml 
+2026-06-06 22:42:09,912 112825 INFO rd-demo odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2026-06-06 22:42:10,011 112825 INFO rd-demo odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2026-06-06 22:42:10,022 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_alias_domain_views.xml 
+2026-06-06 22:42:10,054 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2026-06-06 22:42:10,092 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2026-06-06 22:42:10,116 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2026-06-06 22:42:10,139 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2026-06-06 22:42:10,163 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_templates_public.xml 
+2026-06-06 22:42:10,179 112825 INFO rd-demo odoo.modules.loading: loading mail/views/res_users_views.xml 
+2026-06-06 22:42:10,234 112825 INFO rd-demo odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2026-06-06 22:42:10,267 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2026-06-06 22:42:10,314 112825 INFO rd-demo odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2026-06-06 22:42:10,350 112825 INFO rd-demo odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2026-06-06 22:42:10,416 112825 INFO rd-demo odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2026-06-06 22:42:10,494 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2026-06-06 22:42:10,524 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_menus.xml 
+2026-06-06 22:42:10,783 112825 INFO rd-demo odoo.modules.loading: loading mail/views/discuss/discuss_menus.xml 
+2026-06-06 22:42:10,792 112825 INFO rd-demo odoo.modules.loading: loading mail/views/discuss/discuss_call_history_views.xml 
+2026-06-06 22:42:10,827 112825 INFO rd-demo odoo.modules.loading: loading mail/views/res_company_views.xml 
+2026-06-06 22:42:10,851 112825 INFO rd-demo odoo.modules.loading: loading mail/views/mail_scheduled_message_views.xml 
+2026-06-06 22:42:10,869 112825 INFO rd-demo odoo.modules.loading: loading mail/data/mail_canned_response_data.xml 
+2026-06-06 22:42:10,889 112825 INFO rd-demo odoo.modules.loading: loading mail/data/mail_templates_invite.xml 
+2026-06-06 22:42:10,917 112825 INFO rd-demo odoo.modules.loading: loading mail/data/web_tour_tour.xml 
+2026-06-06 22:42:10,989 112825 INFO rd-demo odoo.modules.loading: Module mail loaded in 5.66s, 5112 queries (+5113 other) 
+2026-06-06 22:42:10,989 112825 INFO rd-demo odoo.modules.loading: Loading module analytic (21/56) 
+2026-06-06 22:42:11,029 112825 INFO rd-demo odoo.registry: module analytic: creating or updating database tables 
+2026-06-06 22:42:11,404 112825 INFO rd-demo odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2026-06-06 22:42:11,448 112825 INFO rd-demo odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2026-06-06 22:42:11,475 112825 INFO rd-demo odoo.modules.loading: loading analytic/views/analytic_line_views.xml 
+2026-06-06 22:42:11,561 112825 INFO rd-demo odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2026-06-06 22:42:11,622 112825 INFO rd-demo odoo.modules.loading: loading analytic/views/analytic_plan_views.xml 
+2026-06-06 22:42:11,644 112825 INFO rd-demo odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml 
+2026-06-06 22:42:11,667 112825 INFO rd-demo odoo.modules.loading: loading analytic/data/analytic_data.xml 
+2026-06-06 22:42:11,737 112825 INFO rd-demo odoo.modules.loading: Module analytic loaded in 0.75s, 429 queries (+429 other) 
+2026-06-06 22:42:11,737 112825 INFO rd-demo odoo.modules.loading: Loading module auth_signup (22/56) 
+2026-06-06 22:42:11,785 112825 INFO rd-demo odoo.registry: module auth_signup: creating or updating database tables 
+2026-06-06 22:42:11,919 112825 INFO rd-demo odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2026-06-06 22:42:11,929 112825 INFO rd-demo odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2026-06-06 22:42:11,973 112825 INFO rd-demo odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2026-06-06 22:42:12,073 112825 INFO rd-demo odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2026-06-06 22:42:12,091 112825 INFO rd-demo odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2026-06-06 22:42:12,132 112825 INFO rd-demo odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2026-06-06 22:42:12,172 112825 INFO rd-demo odoo.modules.loading: loading auth_signup/views/auth_signup_templates_email.xml 
+2026-06-06 22:42:12,181 112825 INFO rd-demo odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2026-06-06 22:42:12,221 112825 INFO rd-demo odoo.modules.loading: Module auth_signup loaded in 0.48s, 256 queries (+256 other) 
+2026-06-06 22:42:12,221 112825 INFO rd-demo odoo.modules.loading: Loading module auth_totp_mail (23/56) 
+2026-06-06 22:42:12,240 112825 INFO rd-demo odoo.registry: module auth_totp_mail: creating or updating database tables 
+2026-06-06 22:42:12,319 112825 INFO rd-demo odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2026-06-06 22:42:12,370 112825 INFO rd-demo odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2026-06-06 22:42:12,450 112825 INFO rd-demo odoo.modules.loading: loading auth_totp_mail/data/security_notifications_template.xml 
+2026-06-06 22:42:12,460 112825 INFO rd-demo odoo.modules.loading: loading auth_totp_mail/views/res_config_settings_views.xml 
+2026-06-06 22:42:12,484 112825 INFO rd-demo odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2026-06-06 22:42:12,511 112825 INFO rd-demo odoo.modules.loading: loading auth_totp_mail/views/templates.xml 
+2026-06-06 22:42:12,548 112825 INFO rd-demo odoo.modules.loading: Module auth_totp_mail loaded in 0.33s, 190 queries (+190 other) 
+2026-06-06 22:42:12,548 112825 INFO rd-demo odoo.modules.loading: Loading module base_install_request (24/56) 
+2026-06-06 22:42:12,559 112825 INFO rd-demo odoo.registry: module base_install_request: creating or updating database tables 
+2026-06-06 22:42:12,683 112825 INFO rd-demo odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2026-06-06 22:42:12,705 112825 INFO rd-demo odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2026-06-06 22:42:12,742 112825 INFO rd-demo odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2026-06-06 22:42:12,754 112825 INFO rd-demo odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2026-06-06 22:42:12,763 112825 INFO rd-demo odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2026-06-06 22:42:12,811 112825 INFO rd-demo odoo.modules.loading: Module base_install_request loaded in 0.26s, 154 queries (+154 other) 
+2026-06-06 22:42:12,811 112825 INFO rd-demo odoo.modules.loading: Loading module google_gmail (25/56) 
+2026-06-06 22:42:12,844 112825 INFO rd-demo odoo.registry: module google_gmail: creating or updating database tables 
+2026-06-06 22:42:12,952 112825 INFO rd-demo odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2026-06-06 22:42:12,973 112825 INFO rd-demo odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2026-06-06 22:42:12,995 112825 INFO rd-demo odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2026-06-06 22:42:13,034 112825 INFO rd-demo odoo.modules.loading: loading google_gmail/views/templates.xml 
+2026-06-06 22:42:13,056 112825 INFO rd-demo odoo.modules.loading: Module google_gmail loaded in 0.24s, 155 queries (+155 other) 
+2026-06-06 22:42:13,056 112825 INFO rd-demo odoo.modules.loading: Loading module iap_mail (26/56) 
+2026-06-06 22:42:13,067 112825 INFO rd-demo odoo.registry: module iap_mail: creating or updating database tables 
+2026-06-06 22:42:13,135 112825 INFO rd-demo odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2026-06-06 22:42:13,157 112825 INFO rd-demo odoo.modules.loading: loading iap_mail/views/iap_views.xml 
+2026-06-06 22:42:13,190 112825 INFO rd-demo odoo.modules.loading: Module iap_mail loaded in 0.13s, 70 queries (+70 other) 
+2026-06-06 22:42:13,191 112825 INFO rd-demo odoo.modules.loading: Loading module mail_bot (27/56) 
+2026-06-06 22:42:13,215 112825 INFO rd-demo odoo.registry: module mail_bot: creating or updating database tables 
+2026-06-06 22:42:13,290 112825 INFO rd-demo odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2026-06-06 22:42:13,308 112825 INFO rd-demo odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2026-06-06 22:42:13,320 112825 INFO rd-demo odoo.modules.loading: Module mail_bot loaded in 0.13s, 109 queries (+109 other) 
+2026-06-06 22:42:13,320 112825 INFO rd-demo odoo.modules.loading: Loading module microsoft_outlook (28/56) 
+2026-06-06 22:42:13,341 112825 INFO rd-demo odoo.registry: module microsoft_outlook: creating or updating database tables 
+2026-06-06 22:42:13,418 112825 INFO rd-demo odoo.modules.loading: loading microsoft_outlook/views/fetchmail_server_views.xml 
+2026-06-06 22:42:13,451 112825 INFO rd-demo odoo.modules.loading: loading microsoft_outlook/views/ir_mail_server_views.xml 
+2026-06-06 22:42:13,472 112825 INFO rd-demo odoo.modules.loading: loading microsoft_outlook/views/res_config_settings_views.xml 
+2026-06-06 22:42:13,517 112825 INFO rd-demo odoo.modules.loading: loading microsoft_outlook/views/templates.xml 
+2026-06-06 22:42:13,540 112825 INFO rd-demo odoo.modules.loading: Module microsoft_outlook loaded in 0.22s, 158 queries (+158 other) 
+2026-06-06 22:42:13,540 112825 INFO rd-demo odoo.modules.loading: Loading module phone_validation (29/56) 
+2026-06-06 22:42:13,647 112825 INFO rd-demo odoo.registry: module phone_validation: creating or updating database tables 
+2026-06-06 22:42:13,673 112825 INFO rd-demo odoo.models: Prepare computation of res.partner.phone_sanitized 
+2026-06-06 22:42:15,002 112825 INFO rd-demo odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2026-06-06 22:42:15,021 112825 INFO rd-demo odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2026-06-06 22:42:15,079 112825 INFO rd-demo odoo.modules.loading: loading phone_validation/views/res_partner_views.xml 
+2026-06-06 22:42:15,101 112825 INFO rd-demo odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2026-06-06 22:42:15,135 112825 INFO rd-demo odoo.modules.loading: Module phone_validation loaded in 1.60s, 1793 queries (+1793 other) 
+2026-06-06 22:42:15,136 112825 INFO rd-demo odoo.modules.loading: Loading module privacy_lookup (30/56) 
+2026-06-06 22:42:15,169 112825 INFO rd-demo odoo.registry: module privacy_lookup: creating or updating database tables 
+2026-06-06 22:42:15,388 112825 INFO rd-demo odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2026-06-06 22:42:15,492 112825 INFO rd-demo odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2026-06-06 22:42:15,536 112825 INFO rd-demo odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2026-06-06 22:42:15,573 112825 INFO rd-demo odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2026-06-06 22:42:15,657 112825 INFO rd-demo odoo.modules.loading: Module privacy_lookup loaded in 0.52s, 294 queries (+294 other) 
+2026-06-06 22:42:15,657 112825 INFO rd-demo odoo.modules.loading: Loading module product (31/56) 
+2026-06-06 22:42:15,767 112825 INFO rd-demo odoo.registry: module product: creating or updating database tables 
+2026-06-06 22:42:17,055 112825 INFO rd-demo odoo.modules.loading: loading product/data/product_data.xml 
+2026-06-06 22:42:17,119 112825 INFO rd-demo odoo.modules.loading: loading product/security/product_security.xml 
+2026-06-06 22:42:17,256 112825 INFO rd-demo odoo.modules.loading: loading product/security/ir.model.access.csv 
+2026-06-06 22:42:17,296 112825 INFO rd-demo odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2026-06-06 22:42:17,318 112825 INFO rd-demo odoo.modules.loading: loading product/wizard/update_product_attribute_value_views.xml 
+2026-06-06 22:42:17,330 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_tag_views.xml 
+2026-06-06 22:42:17,355 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_views.xml 
+2026-06-06 22:42:17,563 112825 INFO rd-demo odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2026-06-06 22:42:17,594 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2026-06-06 22:42:17,671 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_attribute_value_views.xml 
+2026-06-06 22:42:17,680 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_category_views.xml 
+2026-06-06 22:42:17,714 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_combo_views.xml 
+2026-06-06 22:42:17,747 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_document_views.xml 
+2026-06-06 22:42:17,793 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_pricelist_item_views.xml 
+2026-06-06 22:42:17,859 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2026-06-06 22:42:17,903 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_supplierinfo_views.xml 
+2026-06-06 22:42:17,948 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_template_attribute_line_views.xml 
+2026-06-06 22:42:17,958 112825 INFO rd-demo odoo.modules.loading: loading product/views/product_template_views.xml 
+2026-06-06 22:42:18,069 112825 INFO rd-demo odoo.modules.loading: loading product/views/res_country_group_views.xml 
+2026-06-06 22:42:18,092 112825 INFO rd-demo odoo.modules.loading: loading product/views/res_partner_views.xml 
+2026-06-06 22:42:18,119 112825 INFO rd-demo odoo.modules.loading: loading product/views/uom_views.xml 
+2026-06-06 22:42:18,150 112825 INFO rd-demo odoo.modules.loading: loading product/report/product_reports.xml 
+2026-06-06 22:42:18,196 112825 INFO rd-demo odoo.modules.loading: loading product/report/product_product_templates.xml 
+2026-06-06 22:42:18,263 112825 INFO rd-demo odoo.modules.loading: loading product/report/product_template_templates.xml 
+2026-06-06 22:42:18,301 112825 INFO rd-demo odoo.modules.loading: loading product/report/product_packaging.xml 
+2026-06-06 22:42:18,310 112825 INFO rd-demo odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2026-06-06 22:42:18,370 112825 INFO rd-demo odoo.modules.loading: Module product loaded in 2.71s, 1641 queries (+1641 other) 
+2026-06-06 22:42:18,370 112825 INFO rd-demo odoo.modules.loading: Loading module resource_mail (32/56) 
+2026-06-06 22:42:18,380 112825 INFO rd-demo odoo.registry: module resource_mail: creating or updating database tables 
+2026-06-06 22:42:18,455 112825 INFO rd-demo odoo.modules.loading: Module resource_mail loaded in 0.08s, 36 queries (+36 other) 
+2026-06-06 22:42:18,455 112825 INFO rd-demo odoo.modules.loading: Loading module sales_team (33/56) 
+2026-06-06 22:42:18,485 112825 INFO rd-demo odoo.registry: module sales_team: creating or updating database tables 
+2026-06-06 22:42:18,541 112825 INFO rd-demo odoo.models: Prepare computation of res.users.sale_team_id 
+2026-06-06 22:42:18,725 112825 INFO rd-demo odoo.modules.loading: loading sales_team/security/sales_team_security.xml 
+2026-06-06 22:42:18,824 112825 INFO rd-demo odoo.modules.loading: loading sales_team/security/ir.model.access.csv 
+2026-06-06 22:42:18,844 112825 INFO rd-demo odoo.modules.loading: loading sales_team/data/crm_team_data.xml 
+2026-06-06 22:42:18,897 112825 INFO rd-demo odoo.modules.loading: loading sales_team/views/crm_tag_views.xml 
+2026-06-06 22:42:18,923 112825 INFO rd-demo odoo.modules.loading: loading sales_team/views/crm_team_views.xml 
+2026-06-06 22:42:18,995 112825 INFO rd-demo odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml 
+2026-06-06 22:42:19,067 112825 INFO rd-demo odoo.modules.loading: loading sales_team/views/mail_activity_views.xml 
+2026-06-06 22:42:19,098 112825 INFO rd-demo odoo.modules.loading: Module sales_team loaded in 0.64s, 365 queries (+365 other) 
+2026-06-06 22:42:19,098 112825 INFO rd-demo odoo.modules.loading: Loading module partner_autocomplete (34/56) 
+2026-06-06 22:42:19,148 112825 INFO rd-demo odoo.registry: module partner_autocomplete: creating or updating database tables 
+2026-06-06 22:42:19,296 112825 INFO rd-demo odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2026-06-06 22:42:19,334 112825 INFO rd-demo odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2026-06-06 22:42:19,364 112825 INFO rd-demo odoo.modules.loading: loading partner_autocomplete/data/iap_service_data.xml 
+2026-06-06 22:42:19,388 112825 INFO rd-demo odoo.modules.loading: Module partner_autocomplete loaded in 0.29s, 142 queries (+142 other) 
+2026-06-06 22:42:19,388 112825 INFO rd-demo odoo.modules.loading: Loading module portal (35/56) 
+2026-06-06 22:42:19,490 112825 INFO rd-demo odoo.registry: module portal: creating or updating database tables 
+2026-06-06 22:42:19,954 112825 INFO rd-demo odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2026-06-06 22:42:19,970 112825 INFO rd-demo odoo.modules.loading: loading portal/data/mail_templates.xml 
+2026-06-06 22:42:19,983 112825 INFO rd-demo odoo.modules.loading: loading portal/views/address_templates.xml 
+2026-06-06 22:42:20,042 112825 INFO rd-demo odoo.modules.loading: loading portal/views/mail_templates_public.xml 
+2026-06-06 22:42:20,056 112825 INFO rd-demo odoo.modules.loading: loading portal/views/portal_templates.xml 
+2026-06-06 22:42:20,239 112825 INFO rd-demo odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2026-06-06 22:42:20,276 112825 INFO rd-demo odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2026-06-06 22:42:20,291 112825 INFO rd-demo odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2026-06-06 22:42:20,363 112825 INFO rd-demo odoo.modules.loading: Module portal loaded in 0.97s, 612 queries (+612 other) 
+2026-06-06 22:42:20,363 112825 INFO rd-demo odoo.modules.loading: Loading module sms (36/56) 
+2026-06-06 22:42:20,506 112825 INFO rd-demo odoo.registry: module sms: creating or updating database tables 
+2026-06-06 22:42:20,520 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2026-06-06 22:42:20,520 112825 INFO rd-demo odoo.models: Prepare computation of ir.actions.server.sms_method 
+2026-06-06 22:42:22,225 112825 INFO rd-demo odoo.modules.loading: loading sms/data/iap_service_data.xml 
+2026-06-06 22:42:22,234 112825 INFO rd-demo odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2026-06-06 22:42:22,276 112825 INFO rd-demo odoo.modules.loading: loading sms/wizard/sms_account_code_views.xml 
+2026-06-06 22:42:22,299 112825 INFO rd-demo odoo.modules.loading: loading sms/wizard/sms_account_phone_views.xml 
+2026-06-06 22:42:22,311 112825 INFO rd-demo odoo.modules.loading: loading sms/wizard/sms_account_sender_views.xml 
+2026-06-06 22:42:22,322 112825 INFO rd-demo odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2026-06-06 22:42:22,344 112825 INFO rd-demo odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2026-06-06 22:42:22,361 112825 INFO rd-demo odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2026-06-06 22:42:22,377 112825 INFO rd-demo odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2026-06-06 22:42:22,408 112825 INFO rd-demo odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2026-06-06 22:42:22,436 112825 INFO rd-demo odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2026-06-06 22:42:22,462 112825 INFO rd-demo odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2026-06-06 22:42:22,491 112825 INFO rd-demo odoo.modules.loading: loading sms/views/iap_account_views.xml 
+2026-06-06 22:42:22,514 112825 INFO rd-demo odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2026-06-06 22:42:22,560 112825 INFO rd-demo odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2026-06-06 22:42:22,597 112825 INFO rd-demo odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2026-06-06 22:42:22,639 112825 INFO rd-demo odoo.modules.loading: loading sms/security/sms_security.xml 
+2026-06-06 22:42:22,677 112825 INFO rd-demo odoo.modules.loading: Module sms loaded in 2.31s, 2425 queries (+2425 other) 
+2026-06-06 22:42:22,678 112825 INFO rd-demo odoo.modules.loading: Loading module snailmail (37/56) 
+2026-06-06 22:42:23,068 112825 INFO rd-demo odoo.registry: module snailmail: creating or updating database tables 
+2026-06-06 22:42:23,510 112825 INFO rd-demo odoo.modules.loading: loading snailmail/data/iap_service_data.xml 
+2026-06-06 22:42:23,519 112825 INFO rd-demo odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2026-06-06 22:42:23,570 112825 INFO rd-demo odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2026-06-06 22:42:23,598 112825 INFO rd-demo odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2026-06-06 22:42:23,638 112825 INFO rd-demo odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2026-06-06 22:42:23,695 112825 INFO rd-demo odoo.modules.loading: Module snailmail loaded in 1.02s, 478 queries (+478 other) 
+2026-06-06 22:42:23,695 112825 INFO rd-demo odoo.modules.loading: Loading module auth_passkey_portal (38/56) 
+2026-06-06 22:42:23,714 112825 INFO rd-demo odoo.modules.loading: loading auth_passkey_portal/views/templates.xml 
+2026-06-06 22:42:23,748 112825 INFO rd-demo odoo.modules.loading: Module auth_passkey_portal loaded in 0.05s, 22 queries (+22 other) 
+2026-06-06 22:42:23,748 112825 INFO rd-demo odoo.modules.loading: Loading module auth_totp_portal (39/56) 
+2026-06-06 22:42:23,761 112825 INFO rd-demo odoo.registry: module auth_totp_portal: creating or updating database tables 
+2026-06-06 22:42:23,808 112825 INFO rd-demo odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2026-06-06 22:42:23,833 112825 INFO rd-demo odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2026-06-06 22:42:23,858 112825 INFO rd-demo odoo.modules.loading: Module auth_totp_portal loaded in 0.11s, 70 queries (+70 other) 
+2026-06-06 22:42:23,858 112825 INFO rd-demo odoo.modules.loading: Loading module digest (40/56) 
+2026-06-06 22:42:23,886 112825 INFO rd-demo odoo.registry: module digest: creating or updating database tables 
+2026-06-06 22:42:24,097 112825 INFO rd-demo odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2026-06-06 22:42:24,114 112825 INFO rd-demo odoo.modules.loading: loading digest/data/digest_data.xml 
+2026-06-06 22:42:24,151 112825 INFO rd-demo odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2026-06-06 22:42:24,186 112825 INFO rd-demo odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2026-06-06 22:42:24,226 112825 INFO rd-demo odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2026-06-06 22:42:24,236 112825 INFO rd-demo odoo.modules.loading: loading digest/views/digest_views.xml 
+2026-06-06 22:42:24,329 112825 INFO rd-demo odoo.modules.loading: loading digest/views/digest_templates.xml 
+2026-06-06 22:42:24,340 112825 INFO rd-demo odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2026-06-06 22:42:24,420 112825 INFO rd-demo odoo.modules.loading: Module digest loaded in 0.56s, 325 queries (+325 other) 
+2026-06-06 22:42:24,420 112825 INFO rd-demo odoo.modules.loading: Loading module payment (41/56) 
+2026-06-06 22:42:24,534 112825 INFO rd-demo odoo.registry: module payment: creating or updating database tables 
+2026-06-06 22:42:25,098 112825 INFO rd-demo odoo.modules.loading: loading payment/data/ir_actions_server_data.xml 
+2026-06-06 22:42:25,128 112825 INFO rd-demo odoo.modules.loading: loading payment/data/payment_method_data.xml 
+2026-06-06 22:42:27,113 112825 INFO rd-demo odoo.modules.loading: loading payment/data/payment_provider_data.xml 
+2026-06-06 22:42:27,319 112825 INFO rd-demo odoo.modules.loading: loading payment/data/payment_cron.xml 
+2026-06-06 22:42:27,338 112825 INFO rd-demo odoo.modules.loading: loading payment/views/express_checkout_templates.xml 
+2026-06-06 22:42:27,345 112825 INFO rd-demo odoo.modules.loading: loading payment/views/payment_form_templates.xml 
+2026-06-06 22:42:27,396 112825 INFO rd-demo odoo.modules.loading: loading payment/views/portal_templates.xml 
+2026-06-06 22:42:27,453 112825 INFO rd-demo odoo.modules.loading: loading payment/views/payment_provider_views.xml 
+2026-06-06 22:42:27,500 112825 INFO rd-demo odoo.modules.loading: loading payment/views/payment_method_views.xml 
+2026-06-06 22:42:27,530 112825 INFO rd-demo odoo.modules.loading: loading payment/views/payment_transaction_views.xml 
+2026-06-06 22:42:27,574 112825 INFO rd-demo odoo.modules.loading: loading payment/views/payment_token_views.xml 
+2026-06-06 22:42:27,599 112825 INFO rd-demo odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2026-06-06 22:42:27,620 112825 INFO rd-demo odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2026-06-06 22:42:28,331 112825 INFO rd-demo odoo.modules.loading: loading payment/security/payment_security.xml 
+2026-06-06 22:42:28,368 112825 INFO rd-demo odoo.modules.loading: loading payment/wizards/payment_capture_wizard_views.xml 
+2026-06-06 22:42:28,381 112825 INFO rd-demo odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2026-06-06 22:42:28,421 112825 INFO rd-demo odoo.modules.loading: Module payment loaded in 4.00s, 2524 queries (+2524 other) 
+2026-06-06 22:42:28,421 112825 INFO rd-demo odoo.modules.loading: Loading module spreadsheet (42/56) 
+2026-06-06 22:42:28,451 112825 INFO rd-demo odoo.registry: module spreadsheet: creating or updating database tables 
+2026-06-06 22:42:28,565 112825 INFO rd-demo odoo.modules.loading: loading spreadsheet/views/public_readonly_spreadsheet_templates.xml 
+2026-06-06 22:42:28,598 112825 INFO rd-demo odoo.modules.loading: Module spreadsheet loaded in 0.18s, 93 queries (+93 other) 
+2026-06-06 22:42:28,598 112825 INFO rd-demo odoo.modules.loading: Loading module account (43/56) 
+2026-06-06 22:42:29,170 112825 INFO rd-demo odoo.registry: module account: creating or updating database tables 
+2026-06-06 22:42:29,603 112825 INFO rd-demo odoo.models: Prepare computation of res.company.domestic_fiscal_position_id 
+2026-06-06 22:42:29,604 112825 INFO rd-demo odoo.models: Prepare computation of res.company.account_fiscal_country_id 
+2026-06-06 22:42:29,604 112825 INFO rd-demo odoo.models: Prepare computation of res.company.invoice_terms_html 
+2026-06-06 22:42:29,604 112825 INFO rd-demo odoo.models: Prepare computation of res.company.account_storno 
+2026-06-06 22:42:32,826 112825 INFO rd-demo odoo.modules.loading: loading account/security/account_security.xml 
+2026-06-06 22:42:33,215 112825 INFO rd-demo odoo.modules.loading: loading account/security/ir.model.access.csv 
+2026-06-06 22:42:33,329 112825 INFO rd-demo odoo.modules.loading: loading account/data/account_data.xml 
+2026-06-06 22:42:33,496 112825 INFO rd-demo odoo.modules.loading: loading account/data/digest_data.xml 
+2026-06-06 22:42:33,510 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_report.xml 
+2026-06-06 22:42:33,548 112825 INFO rd-demo odoo.modules.loading: loading account/data/mail_template_data.xml 
+2026-06-06 22:42:33,627 112825 INFO rd-demo odoo.modules.loading: loading account/data/onboarding_data.xml 
+2026-06-06 22:42:33,676 112825 INFO rd-demo odoo.modules.loading: loading account/data/account_tour.xml 
+2026-06-06 22:42:33,685 112825 INFO rd-demo odoo.modules.loading: loading account/data/ir_sequence.xml 
+2026-06-06 22:42:33,691 112825 INFO rd-demo odoo.modules.loading: loading account/data/res_country_group.xml 
+2026-06-06 22:42:33,723 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_payment_view.xml 
+2026-06-06 22:42:33,854 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2026-06-06 22:42:33,877 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_autopost_bills_wizard.xml 
+2026-06-06 22:42:33,891 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2026-06-06 22:42:33,909 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2026-06-06 22:42:33,930 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2026-06-06 22:42:33,953 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2026-06-06 22:42:33,979 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_move_views.xml 
+2026-06-06 22:42:34,827 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2026-06-06 22:42:34,877 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_account_views.xml 
+2026-06-06 22:42:34,938 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_group_views.xml 
+2026-06-06 22:42:34,964 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_journal_views.xml 
+2026-06-06 22:42:35,052 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2026-06-06 22:42:35,079 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2026-06-06 22:42:35,137 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2026-06-06 22:42:35,180 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_tax_views.xml 
+2026-06-06 22:42:35,300 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2026-06-06 22:42:35,313 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2026-06-06 22:42:35,356 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_payment_method.xml 
+2026-06-06 22:42:35,371 112825 INFO rd-demo odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2026-06-06 22:42:35,409 112825 INFO rd-demo odoo.modules.loading: loading account/views/report_statement.xml 
+2026-06-06 22:42:35,432 112825 INFO rd-demo odoo.modules.loading: loading account/views/terms_template.xml 
+2026-06-06 22:42:35,453 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2026-06-06 22:42:35,481 112825 INFO rd-demo odoo.modules.loading: loading account/views/res_company_views.xml 
+2026-06-06 22:42:35,520 112825 INFO rd-demo odoo.modules.loading: loading account/views/product_view.xml 
+2026-06-06 22:42:35,611 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_analytic_plan_views.xml 
+2026-06-06 22:42:35,634 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_analytic_account_views.xml 
+2026-06-06 22:42:35,671 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_analytic_distribution_model_views.xml 
+2026-06-06 22:42:35,704 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_analytic_line_views.xml 
+2026-06-06 22:42:35,769 112825 INFO rd-demo odoo.modules.loading: loading account/views/report_invoice.xml 
+2026-06-06 22:42:35,825 112825 INFO rd-demo odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2026-06-06 22:42:35,885 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2026-06-06 22:42:35,918 112825 INFO rd-demo odoo.modules.loading: loading account/views/ir_actions_views.xml 
+2026-06-06 22:42:35,936 112825 INFO rd-demo odoo.modules.loading: loading account/views/ir_module_views.xml 
+2026-06-06 22:42:35,955 112825 INFO rd-demo odoo.modules.loading: loading account/views/base_document_layout_views.xml 
+2026-06-06 22:42:35,977 112825 INFO rd-demo odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2026-06-06 22:42:36,062 112825 INFO rd-demo odoo.modules.loading: loading account/views/partner_view.xml 
+2026-06-06 22:42:36,175 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2026-06-06 22:42:36,207 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2026-06-06 22:42:36,281 112825 INFO rd-demo odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2026-06-06 22:42:36,298 112825 INFO rd-demo odoo.modules.loading: loading account/data/service_cron.xml 
+2026-06-06 22:42:36,346 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2026-06-06 22:42:36,373 112825 INFO rd-demo odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2026-06-06 22:42:36,404 112825 INFO rd-demo odoo.modules.loading: loading account/views/digest_views.xml 
+2026-06-06 22:42:36,425 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_move_send_wizard.xml 
+2026-06-06 22:42:36,441 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_move_send_batch_wizard.xml 
+2026-06-06 22:42:36,453 112825 INFO rd-demo odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2026-06-06 22:42:36,463 112825 INFO rd-demo odoo.modules.loading: loading account/views/res_currency.xml 
+2026-06-06 22:42:36,483 112825 INFO rd-demo odoo.modules.loading: loading account/views/res_country_group_view.xml 
+2026-06-06 22:42:36,501 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_menuitem.xml 
+2026-06-06 22:42:36,822 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_secure_entries_wizard.xml 
+2026-06-06 22:42:36,850 112825 INFO rd-demo odoo.modules.loading: loading account/views/mail_message_views.xml 
+2026-06-06 22:42:36,887 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/accrued_orders.xml 
+2026-06-06 22:42:36,903 112825 INFO rd-demo odoo.modules.loading: loading account/views/bill_preview_template.xml 
+2026-06-06 22:42:36,921 112825 INFO rd-demo odoo.modules.loading: loading account/data/account_reports_data.xml 
+2026-06-06 22:42:37,010 112825 INFO rd-demo odoo.modules.loading: loading account/views/uom_uom_views.xml 
+2026-06-06 22:42:37,031 112825 INFO rd-demo odoo.modules.loading: loading account/views/product_views.xml 
+2026-06-06 22:42:37,064 112825 INFO rd-demo odoo.modules.loading: loading account/views/tests_shared_js_python.xml 
+2026-06-06 22:42:37,073 112825 INFO rd-demo odoo.modules.loading: loading account/views/account_lock_exception_views.xml 
+2026-06-06 22:42:37,091 112825 INFO rd-demo odoo.modules.loading: loading account/views/report_templates.xml 
+2026-06-06 22:42:37,134 112825 INFO rd-demo odoo.modules.loading: loading account/wizard/account_merge_wizard_views.xml 
+2026-06-06 22:42:37,162 112825 INFO rd-demo odoo.modules.loading: loading account/data/ir_config_parameter_data.xml 
+2026-06-06 22:42:37,295 112825 INFO rd-demo odoo.modules.loading: Module account loaded in 8.70s, 5796 queries (+5796 other) 
+2026-06-06 22:42:37,296 112825 INFO rd-demo odoo.modules.loading: Loading module spreadsheet_dashboard (44/56) 
+2026-06-06 22:42:37,329 112825 INFO rd-demo odoo.registry: module spreadsheet_dashboard: creating or updating database tables 
+2026-06-06 22:42:37,525 112825 INFO rd-demo odoo.modules.loading: loading spreadsheet_dashboard/security/security.xml 
+2026-06-06 22:42:37,574 112825 INFO rd-demo odoo.modules.loading: loading spreadsheet_dashboard/security/ir.model.access.csv 
+2026-06-06 22:42:37,585 112825 INFO rd-demo odoo.modules.loading: loading spreadsheet_dashboard/views/spreadsheet_dashboard_views.xml 
+2026-06-06 22:42:37,615 112825 INFO rd-demo odoo.modules.loading: loading spreadsheet_dashboard/views/menu_views.xml 
+2026-06-06 22:42:37,654 112825 INFO rd-demo odoo.modules.loading: loading spreadsheet_dashboard/data/dashboard.xml 
+2026-06-06 22:42:37,704 112825 INFO rd-demo odoo.modules.loading: Module spreadsheet_dashboard loaded in 0.41s, 313 queries (+313 other) 
+2026-06-06 22:42:37,705 112825 INFO rd-demo odoo.modules.loading: Loading module account_add_gln (45/56) 
+2026-06-06 22:42:37,742 112825 INFO rd-demo odoo.registry: module account_add_gln: creating or updating database tables 
+2026-06-06 22:42:37,888 112825 INFO rd-demo odoo.modules.loading: loading account_add_gln/views/res_partner_views.xml 
+2026-06-06 22:42:37,945 112825 INFO rd-demo odoo.modules.loading: Module account_add_gln loaded in 0.24s, 102 queries (+102 other) 
+2026-06-06 22:42:37,945 112825 INFO rd-demo odoo.modules.loading: Loading module account_edi_ubl_cii (46/56) 
+2026-06-06 22:42:38,091 112825 INFO rd-demo odoo.registry: module account_edi_ubl_cii: creating or updating database tables 
+2026-06-06 22:42:38,127 112825 INFO rd-demo odoo.models: Prepare computation of res.partner.peppol_endpoint 
+2026-06-06 22:42:38,127 112825 INFO rd-demo odoo.models: Prepare computation of res.partner.peppol_eas 
+2026-06-06 22:42:38,394 112825 INFO rd-demo odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
+2026-06-06 22:42:38,446 112825 INFO rd-demo odoo.modules.loading: loading account_edi_ubl_cii/data/ir_config_parameter_data.xml 
+2026-06-06 22:42:38,452 112825 INFO rd-demo odoo.modules.loading: loading account_edi_ubl_cii/views/account_tax_views.xml 
+2026-06-06 22:42:38,479 112825 INFO rd-demo odoo.modules.loading: loading account_edi_ubl_cii/views/account_move_views.xml 
+2026-06-06 22:42:38,511 112825 INFO rd-demo odoo.modules.loading: loading account_edi_ubl_cii/views/res_partner_views.xml 
+2026-06-06 22:42:38,544 112825 INFO rd-demo odoo.modules.loading: loading account_edi_ubl_cii/report/account_edi_ubl_cii_report_templates.xml 
+2026-06-06 22:42:38,658 112825 INFO rd-demo odoo.modules.loading: Module account_edi_ubl_cii loaded in 0.71s, 350 queries (+350 other) 
+2026-06-06 22:42:38,658 112825 INFO rd-demo odoo.modules.loading: Loading module account_payment (47/56) 
+2026-06-06 22:42:38,717 112825 INFO rd-demo odoo.registry: module account_payment: creating or updating database tables 
+2026-06-06 22:42:39,011 112825 INFO rd-demo odoo.modules.loading: loading account_payment/data/ir_config_parameter.xml 
+2026-06-06 22:42:39,021 112825 INFO rd-demo odoo.modules.loading: loading account_payment/security/ir.model.access.csv 
+2026-06-06 22:42:39,038 112825 INFO rd-demo odoo.modules.loading: loading account_payment/security/ir_rules.xml 
+2026-06-06 22:42:39,054 112825 INFO rd-demo odoo.modules.loading: loading account_payment/views/account_payment_menus.xml 
+2026-06-06 22:42:39,089 112825 INFO rd-demo odoo.modules.loading: loading account_payment/views/account_portal_templates.xml 
+2026-06-06 22:42:39,170 112825 INFO rd-demo odoo.modules.loading: loading account_payment/views/account_move_views.xml 
+2026-06-06 22:42:39,195 112825 INFO rd-demo odoo.modules.loading: loading account_payment/views/account_journal_views.xml 
+2026-06-06 22:42:39,210 112825 INFO rd-demo odoo.modules.loading: loading account_payment/views/account_payment_views.xml 
+2026-06-06 22:42:39,223 112825 INFO rd-demo odoo.modules.loading: loading account_payment/views/payment_form_templates.xml 
+2026-06-06 22:42:39,231 112825 INFO rd-demo odoo.modules.loading: loading account_payment/views/payment_provider_views.xml 
+2026-06-06 22:42:39,241 112825 INFO rd-demo odoo.modules.loading: loading account_payment/views/payment_transaction_views.xml 
+2026-06-06 22:42:39,250 112825 INFO rd-demo odoo.modules.loading: loading account_payment/wizards/account_payment_register_views.xml 
+2026-06-06 22:42:39,260 112825 INFO rd-demo odoo.modules.loading: loading account_payment/wizards/payment_link_wizard_views.xml 
+2026-06-06 22:42:39,272 112825 INFO rd-demo odoo.modules.loading: loading account_payment/wizards/payment_refund_wizard_views.xml 
+2026-06-06 22:42:39,278 112825 INFO rd-demo odoo.modules.loading: loading account_payment/wizards/res_config_settings_views.xml 
+2026-06-06 22:42:39,321 112825 INFO rd-demo odoo.modules.loading: Module account_payment loaded in 0.66s, 560 queries (+560 other) 
+2026-06-06 22:42:39,321 112825 INFO rd-demo odoo.modules.loading: Loading module snailmail_account (48/56) 
+2026-06-06 22:42:39,359 112825 INFO rd-demo odoo.registry: module snailmail_account: creating or updating database tables 
+2026-06-06 22:42:39,476 112825 INFO rd-demo odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2026-06-06 22:42:39,516 112825 INFO rd-demo odoo.modules.loading: Module snailmail_account loaded in 0.20s, 188 queries (+188 other) 
+2026-06-06 22:42:39,516 112825 INFO rd-demo odoo.modules.loading: Loading module spreadsheet_account (49/56) 
+2026-06-06 22:42:39,539 112825 INFO rd-demo odoo.registry: module spreadsheet_account: creating or updating database tables 
+2026-06-06 22:42:39,655 112825 INFO rd-demo odoo.modules.loading: Module spreadsheet_account loaded in 0.14s, 58 queries (+58 other) 
+2026-06-06 22:42:39,655 112825 INFO rd-demo odoo.modules.loading: Loading module spreadsheet_dashboard_account (50/56) 
+2026-06-06 22:42:39,680 112825 WARNING rd-demo odoo.addons.base.models.ir_cron: Skipping database rd-demo because of modules to install/upgrade/remove. 
+2026-06-06 22:42:39,682 112825 INFO rd-demo odoo.modules.loading: loading spreadsheet_dashboard_account/data/dashboards.xml 
+2026-06-06 22:42:39,748 112825 INFO rd-demo odoo.modules.loading: Module spreadsheet_dashboard_account loaded in 0.09s, 29 queries (+33 other) 
+2026-06-06 22:42:39,748 112825 INFO rd-demo odoo.modules.loading: Loading module sale (51/56) 
+2026-06-06 22:42:39,889 112825 INFO rd-demo odoo.registry: module sale: creating or updating database tables 
+2026-06-06 22:42:40,990 112825 INFO rd-demo odoo.modules.loading: loading sale/security/ir.model.access.csv 
+2026-06-06 22:42:41,042 112825 INFO rd-demo odoo.modules.loading: loading sale/security/res_groups.xml 
+2026-06-06 22:42:41,058 112825 INFO rd-demo odoo.modules.loading: loading sale/security/ir_rules.xml 
+2026-06-06 22:42:41,302 112825 INFO rd-demo odoo.modules.loading: loading sale/report/account_invoice_report_views.xml 
+2026-06-06 22:42:41,351 112825 INFO rd-demo odoo.modules.loading: loading sale/report/ir_actions_report_templates.xml 
+2026-06-06 22:42:41,412 112825 INFO rd-demo odoo.modules.loading: loading sale/report/ir_actions_report.xml 
+2026-06-06 22:42:41,426 112825 INFO rd-demo odoo.modules.loading: loading sale/report/sale_report_views.xml 
+2026-06-06 22:42:41,514 112825 INFO rd-demo odoo.modules.loading: loading sale/data/ir_cron.xml 
+2026-06-06 22:42:41,581 112825 INFO rd-demo odoo.modules.loading: loading sale/data/ir_sequence_data.xml 
+2026-06-06 22:42:41,588 112825 INFO rd-demo odoo.modules.loading: loading sale/data/mail_message_subtype_data.xml 
+2026-06-06 22:42:41,622 112825 INFO rd-demo odoo.modules.loading: loading sale/data/mail_template_data.xml 
+2026-06-06 22:42:41,665 112825 INFO rd-demo odoo.modules.loading: loading sale/data/sale_tour.xml 
+2026-06-06 22:42:41,673 112825 INFO rd-demo odoo.modules.loading: loading sale/data/ir_config_parameter.xml 
+2026-06-06 22:42:41,691 112825 INFO rd-demo odoo.modules.loading: loading sale/wizard/account_accrued_orders_wizard_views.xml 
+2026-06-06 22:42:41,706 112825 INFO rd-demo odoo.modules.loading: loading sale/wizard/mass_cancel_orders_views.xml 
+2026-06-06 22:42:41,726 112825 INFO rd-demo odoo.modules.loading: loading sale/wizard/payment_link_wizard_views.xml 
+2026-06-06 22:42:41,757 112825 INFO rd-demo odoo.modules.loading: loading sale/wizard/res_config_settings_views.xml 
+2026-06-06 22:42:41,845 112825 INFO rd-demo odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml 
+2026-06-06 22:42:41,867 112825 INFO rd-demo odoo.modules.loading: loading sale/wizard/sale_order_discount_views.xml 
+2026-06-06 22:42:41,883 112825 INFO rd-demo odoo.modules.loading: loading sale/views/sale_order_views.xml 
+2026-06-06 22:42:42,160 112825 INFO rd-demo odoo.modules.loading: loading sale/views/account_views.xml 
+2026-06-06 22:42:42,259 112825 INFO rd-demo odoo.modules.loading: loading sale/views/crm_team_views.xml 
+2026-06-06 22:42:42,309 112825 INFO rd-demo odoo.modules.loading: loading sale/views/mail_activity_views.xml 
+2026-06-06 22:42:42,315 112825 INFO rd-demo odoo.modules.loading: loading sale/views/mail_activity_plan_views.xml 
+2026-06-06 22:42:42,322 112825 INFO rd-demo odoo.modules.loading: loading sale/views/payment_views.xml 
+2026-06-06 22:42:42,362 112825 INFO rd-demo odoo.modules.loading: loading sale/views/product_document_views.xml 
+2026-06-06 22:42:42,420 112825 INFO rd-demo odoo.modules.loading: loading sale/views/product_pricelist_item_views.xml 
+2026-06-06 22:42:42,451 112825 INFO rd-demo odoo.modules.loading: loading sale/views/product_template_views.xml 
+2026-06-06 22:42:42,488 112825 INFO rd-demo odoo.modules.loading: loading sale/views/product_views.xml 
+2026-06-06 22:42:42,600 112825 INFO rd-demo odoo.modules.loading: loading sale/views/res_partner_views.xml 
+2026-06-06 22:42:42,684 112825 INFO rd-demo odoo.modules.loading: loading sale/views/sale_order_line_views.xml 
+2026-06-06 22:42:42,713 112825 INFO rd-demo odoo.modules.loading: loading sale/views/sale_portal_templates.xml 
+2026-06-06 22:42:42,825 112825 INFO rd-demo odoo.modules.loading: loading sale/views/utm_campaign_views.xml 
+2026-06-06 22:42:42,859 112825 INFO rd-demo odoo.modules.loading: loading sale/views/sale_menus.xml 
+2026-06-06 22:42:43,159 112825 INFO rd-demo odoo.modules.loading: Module sale loaded in 3.41s, 2501 queries (+2501 other) 
+2026-06-06 22:42:43,160 112825 INFO rd-demo odoo.modules.loading: Loading module sale_edi_ubl (52/56) 
+2026-06-06 22:42:43,188 112825 INFO rd-demo odoo.registry: module sale_edi_ubl: creating or updating database tables 
+2026-06-06 22:42:43,334 112825 INFO rd-demo odoo.modules.loading: Module sale_edi_ubl loaded in 0.17s, 85 queries (+85 other) 
+2026-06-06 22:42:43,335 112825 INFO rd-demo odoo.modules.loading: Loading module sale_management (53/56) 
+2026-06-06 22:42:43,394 112825 INFO rd-demo odoo.registry: module sale_management: creating or updating database tables 
+2026-06-06 22:42:43,594 112825 INFO rd-demo odoo.modules.loading: loading sale_management/data/digest_data.xml 
+2026-06-06 22:42:43,609 112825 INFO rd-demo odoo.modules.loading: loading sale_management/security/ir.model.access.csv 
+2026-06-06 22:42:43,626 112825 INFO rd-demo odoo.modules.loading: loading sale_management/security/sale_management_security.xml 
+2026-06-06 22:42:43,641 112825 INFO rd-demo odoo.modules.loading: loading sale_management/views/sale_order_template_views.xml 
+2026-06-06 22:42:43,673 112825 INFO rd-demo odoo.modules.loading: loading sale_management/views/digest_views.xml 
+2026-06-06 22:42:43,686 112825 INFO rd-demo odoo.modules.loading: loading sale_management/views/res_config_settings_views.xml 
+2026-06-06 22:42:43,718 112825 INFO rd-demo odoo.modules.loading: loading sale_management/views/sale_order_views.xml 
+2026-06-06 22:42:43,737 112825 INFO rd-demo odoo.modules.loading: loading sale_management/views/sale_portal_templates.xml 
+2026-06-06 22:42:43,750 112825 INFO rd-demo odoo.modules.loading: loading sale_management/views/sale_management_menus.xml 
+2026-06-06 22:42:43,777 112825 INFO rd-demo odoo.modules.loading: Module sale_management loaded in 0.44s, 369 queries (+369 other) 
+2026-06-06 22:42:43,777 112825 INFO rd-demo odoo.modules.loading: Loading module sale_sms (54/56) 
+2026-06-06 22:42:43,800 112825 INFO rd-demo odoo.modules.loading: loading sale_sms/security/ir.model.access.csv 
+2026-06-06 22:42:43,856 112825 INFO rd-demo odoo.modules.loading: loading sale_sms/security/security.xml 
+2026-06-06 22:42:43,880 112825 INFO rd-demo odoo.modules.loading: Module sale_sms loaded in 0.10s, 38 queries (+38 other) 
+2026-06-06 22:42:43,880 112825 INFO rd-demo odoo.modules.loading: Loading module spreadsheet_dashboard_sale (55/56) 
+2026-06-06 22:42:43,898 112825 INFO rd-demo odoo.modules.loading: loading spreadsheet_dashboard_sale/data/dashboards.xml 
+2026-06-06 22:42:43,956 112825 INFO rd-demo odoo.modules.loading: Module spreadsheet_dashboard_sale loaded in 0.08s, 34 queries (+34 other) 
+2026-06-06 22:42:43,956 112825 INFO rd-demo odoo.modules.loading: Loading module sale_pdf_quote_builder (56/56) 
+2026-06-06 22:42:43,984 112825 INFO rd-demo odoo.registry: module sale_pdf_quote_builder: creating or updating database tables 
+2026-06-06 22:42:44,297 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/data/ir_cron.xml 
+2026-06-06 22:42:44,353 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/data/sale_pdf_form_field.xml 
+2026-06-06 22:42:44,367 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/report/ir_actions_report.xml 
+2026-06-06 22:42:44,381 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/security/ir.model.access.csv 
+2026-06-06 22:42:44,417 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/security/ir_rules.xml 
+2026-06-06 22:42:44,432 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/views/product_document_views.xml 
+2026-06-06 22:42:44,468 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/views/quotation_document_views.xml 
+2026-06-06 22:42:44,502 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_order_template_views.xml 
+2026-06-06 22:42:44,522 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_order_views.xml 
+2026-06-06 22:42:44,552 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_pdf_form_field_views.xml 
+2026-06-06 22:42:44,566 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_pdf_quote_builder_menus.xml 
+2026-06-06 22:42:44,576 112825 INFO rd-demo odoo.modules.loading: loading sale_pdf_quote_builder/wizards/res_config_settings_views.xml 
+2026-06-06 22:42:44,642 112825 INFO rd-demo odoo.modules.loading: Module sale_pdf_quote_builder loaded in 0.69s, 406 queries (+406 other) 
+2026-06-06 22:42:44,642 112825 INFO rd-demo odoo.modules.loading: 56 modules loaded in 41.28s, 29695 queries (+29703 extra) 
+2026-06-06 22:42:45,585 112825 INFO rd-demo odoo.modules.loading: Modules loaded. 
+2026-06-06 22:42:47,407 112825 INFO rd-demo odoo.registry: Registry changed, signaling through the database 
+2026-06-06 22:42:47,410 112825 INFO rd-demo odoo.registry: Registry loaded in 45.653s 
+2026-06-06 22:42:47,411 112825 INFO rd-demo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-06-06 22:42:47,414 112825 INFO rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-06-06 22:42:47,439 112825 INFO rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-06-06 22:42:47,456 112825 INFO rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-06-06 22:42:47,487 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:47] "POST /web/dataset/call_button/ir.module.module/button_immediate_install#ir.module.module.button_immediate_install HTTP/1.1" 200 - 33917 24.489 21.480
+2026-06-06 22:42:47,612 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 8 0.060 22.699
+2026-06-06 22:42:47,617 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.132 24.977
+2026-06-06 22:42:47,629 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 5 0.024 25.095
+2026-06-06 22:42:47,636 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 5 0.045 23.693
+2026-06-06 22:42:47,662 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:47] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.004 0.009
+2026-06-06 22:42:48,004 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:48] "GET /odoo HTTP/1.1" 200 - 114 0.095 0.354
+2026-06-06 22:42:48,089 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:48] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 12 0.022 0.012
+2026-06-06 22:42:48,089 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:48] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.015 0.021
+2026-06-06 22:42:49,473 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/7043196/web.assets_web.min.css (id:524) 
+2026-06-06 22:42:49,474 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Deleting attachments [17] (matching /web/assets/_______/web.assets_web.min.css) because it was replaced with /web/assets/7043196/web.assets_web.min.css 
+2026-06-06 22:42:49,491 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:49] "GET /web/assets/7043196/web.assets_web.min.css HTTP/1.1" 200 - 16 0.042 1.421
+2026-06-06 22:42:50,865 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/d336917/web.assets_web_print.min.css (id:525) 
+2026-06-06 22:42:50,867 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Deleting attachments [18] (matching /web/assets/_______/web.assets_web_print.min.css) because it was replaced with /web/assets/d336917/web.assets_web_print.min.css 
+2026-06-06 22:42:50,874 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:50] "GET /web/assets/d336917/web.assets_web_print.min.css HTTP/1.1" 200 - 10 0.030 1.344
+2026-06-06 22:42:52,795 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/10c0567/web.assets_web.min.js (id:526) 
+2026-06-06 22:42:52,797 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Deleting attachments [19] (matching /web/assets/_______/web.assets_web.min.js) because it was replaced with /web/assets/10c0567/web.assets_web.min.js 
+2026-06-06 22:42:52,811 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:52] "GET /web/assets/10c0567/web.assets_web.min.js HTTP/1.1" 200 - 13 0.011 4.774
+2026-06-06 22:42:53,235 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:53] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 2 0.002 0.007
+2026-06-06 22:42:53,268 112825 INFO rd-demo odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2026-06-06 22:42:53,284 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:53] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.007 0.015
+2026-06-06 22:42:53,285 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:53] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 3 0.006 0.022
+2026-06-06 22:42:53,301 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:53] "POST /web/dataset/call_kw/res.company/iap_enrich_auto#res.company.iap_enrich_auto HTTP/1.1" 200 - 21 0.024 0.024
+2026-06-06 22:42:53,460 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:53] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.020
+2026-06-06 22:42:53,507 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/3043bed/web_tour.interactive.min.js (id:527) 
+2026-06-06 22:42:53,509 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:53] "GET /web/assets/3043bed/web_tour.interactive.min.js HTTP/1.1" 200 - 8 0.004 0.069
+2026-06-06 22:42:54,053 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:54] "POST /mail/data HTTP/1.1" 200 - 57 0.040 0.071
+2026-06-06 22:42:54,135 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:54] "POST /web/dataset/call_kw/discuss.channel/channel_fetched#discuss.channel.channel_fetched HTTP/1.1" 200 - 11 0.007 0.015
+2026-06-06 22:42:55,069 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:55] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2026-06-06 22:42:55,095 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:55] "GET /mail/static/lib/idb-keyval/idb-keyval.js HTTP/1.1" 200 - 0 0.000 0.002
+2026-06-06 22:42:55,130 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:55] "GET /odoo/offline HTTP/1.1" 200 - 6 0.006 0.018
+2026-06-06 22:42:55,149 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 22:42:55] "GET /odoo HTTP/1.1" 200 - 24 0.021 0.023
+2026-06-06 22:43:03,508 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Months' (5) starting 
+2026-06-06 22:43:03,524 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Months' (5) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-06-06 22:43:03,534 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) starting 
+2026-06-06 22:43:03,543 112825 INFO rd-demo odoo.addons.mail.models.mail_scheduled_message: Posting 0 scheduled messages 
+2026-06-06 22:43:03,545 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-06-06 22:43:03,549 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2026-06-06 22:43:03,560 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-06-06 22:43:03,564 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) starting 
+2026-06-06 22:43:03,579 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-06-06 22:43:03,583 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) starting 
+2026-06-06 22:43:03,596 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-06-06 22:43:03,600 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (12) starting 
+2026-06-06 22:43:03,610 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (12) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-06-06 22:43:03,613 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (13) starting 
+2026-06-06 22:43:03,623 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (13) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-06-06 22:43:03,629 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (17) starting 
+2026-06-06 22:43:03,640 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (17) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-06-06 22:43:03,645 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Sale Pdf Quote Builder: assign form fields to documents post upgrade' (20) starting 
+2026-06-06 22:43:03,658 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Sale Pdf Quote Builder: assign form fields to documents post upgrade' (20) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-06-06 22:43:03,664 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2026-06-06 22:43:03,680 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-06-06 22:43:03,687 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (11) starting 
+2026-06-06 22:43:03,708 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (11) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-06-06 22:44:03,769 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-06-06 22:44:04,015 112825 INFO rd-demo odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-06-06 22:44:04,050 112825 INFO rd-demo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-06-06 22:44:04,162 112825 INFO rd-demo odoo.addons.base.models.ir_attachment: filestore gc 440 checked, 3 removed 
+2026-06-06 22:44:04,179 112825 INFO rd-demo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-06-06 22:44:04,204 112825 INFO rd-demo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-06-06 22:44:04,270 112825 INFO rd-demo odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2026-06-06 22:44:04,275 112825 INFO rd-demo odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2026-06-06 22:44:04,310 112825 INFO rd-demo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-06-06 22:44:04,356 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.59s) 
+2026-06-06 23:21:53,135 112825 INFO rd-demo odoo.addons.base.models.res_device: User 2 inserts device log (YGjGur5-Ca7rMQx_g2nT5YAO5y-OK-uB4a2GvfI-7y) 
+2026-06-06 23:21:53,138 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:21:53] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 2 0.004 0.004
+2026-06-06 23:21:53,151 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:21:53] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:28:38,217 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "POST /web/action/load HTTP/1.1" 200 - 6 0.008 0.009
+2026-06-06 23:28:38,224 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.012 0.010
+2026-06-06 23:28:38,225 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "GET /web/image/res.partner/3/avatar_128?unique=1780774957000 HTTP/1.1" 200 - 11 0.010 0.013
+2026-06-06 23:28:38,333 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "GET /web/image/discuss.channel/2/avatar_128?unique=c7bdc9dff22d5b8f086f267413ddfc3fea6701b7e791ad8eee0a0012d2d5b087f4ee660710f5a131f964ebcad742fd6e2dc2ac8989e29209d9173159601b623f HTTP/1.1" 200 - 4 0.004 0.009
+2026-06-06 23:28:38,342 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "GET /web/image/discuss.channel/1/avatar_128?unique=65739c45cd86260cf61f1cb4627295aa104e42d2aa2e0da9945919d4f5041d1e16b101be7dc6a90f0ad78e66e96df2d712bc70cf5956c7a271274c47e7535ccd HTTP/1.1" 200 - 4 0.006 0.014
+2026-06-06 23:28:38,343 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "POST /discuss/channel/messages HTTP/1.1" 200 - 21 0.018 0.011
+2026-06-06 23:28:38,347 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "GET /web/image/res.partner/2/avatar_128?unique=1780785757000 HTTP/1.1" 200 - 6 0.011 0.012
+2026-06-06 23:28:38,347 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "GET /web/image/res.partner/3/avatar_128?unique=1780785757000 HTTP/1.1" 200 - 7 0.009 0.011
+2026-06-06 23:28:38,352 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "GET /web/bundle/web.assets_emoji?lang=en_US HTTP/1.1" 200 - 2 0.001 0.004
+2026-06-06 23:28:38,489 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/072992d/web.assets_emoji.min.js (id:528) 
+2026-06-06 23:28:38,491 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "GET /web/assets/072992d/web.assets_emoji.min.js HTTP/1.1" 200 - 8 0.004 0.085
+2026-06-06 23:28:38,495 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:28:38] "POST /discuss/channel/mark_as_read HTTP/1.1" 200 - 24 0.081 0.015
+2026-06-06 23:34:03,529 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "GET /odoo/discuss HTTP/1.1" 200 - 24 0.005 0.010
+2026-06-06 23:34:03,562 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:34:03,569 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.002 0.003
+2026-06-06 23:34:03,815 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "GET /web/webclient/translations?hash=c5fe5d127f1d313eae82d07ea71c138475bbaef0&lang=en_US HTTP/1.1" 200 - 1 0.000 0.001
+2026-06-06 23:34:03,818 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 1 0.001 0.001
+2026-06-06 23:34:03,820 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.003
+2026-06-06 23:34:03,887 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.003 0.009
+2026-06-06 23:34:03,888 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "POST /web/action/load HTTP/1.1" 200 - 7 0.006 0.005
+2026-06-06 23:34:03,913 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "POST /mail/data HTTP/1.1" 200 - 17 0.004 0.007
+2026-06-06 23:34:03,948 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.004
+2026-06-06 23:34:03,968 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:03] "POST /mail/data HTTP/1.1" 200 - 34 0.007 0.018
+2026-06-06 23:34:04,077 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:04] "POST /discuss/channel/messages HTTP/1.1" 200 - 20 0.004 0.010
+2026-06-06 23:34:04,104 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:04] "GET /web/bundle/web.assets_emoji?lang=en_US HTTP/1.1" 200 - 1 0.000 0.001
+2026-06-06 23:34:05,672 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:05] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2026-06-06 23:34:07,571 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:07] "POST /web/action/load HTTP/1.1" 200 - 6 0.005 0.007
+2026-06-06 23:34:12,095 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /odoo/discuss HTTP/1.1" 200 - 24 0.005 0.011
+2026-06-06 23:34:12,116 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:34:12,167 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /web/webclient/translations?hash=c5fe5d127f1d313eae82d07ea71c138475bbaef0&lang=en_US HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 23:34:12,173 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 1 0.001 0.003
+2026-06-06 23:34:12,173 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.004 0.004
+2026-06-06 23:34:12,174 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.002 0.004
+2026-06-06 23:34:12,220 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.002 0.005
+2026-06-06 23:34:12,256 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.002
+2026-06-06 23:34:12,274 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "POST /mail/data HTTP/1.1" 200 - 46 0.008 0.019
+2026-06-06 23:34:12,358 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "POST /discuss/channel/messages HTTP/1.1" 200 - 20 0.003 0.008
+2026-06-06 23:34:12,398 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:12] "GET /web/bundle/web.assets_emoji?lang=en_US HTTP/1.1" 200 - 1 0.000 0.001
+2026-06-06 23:34:13,918 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:13] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2026-06-06 23:34:15,209 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET / HTTP/1.1" 303 - 1 0.001 0.002
+2026-06-06 23:34:15,225 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /odoo HTTP/1.1" 200 - 24 0.003 0.010
+2026-06-06 23:34:15,248 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:34:15,297 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /web/webclient/translations?hash=c5fe5d127f1d313eae82d07ea71c138475bbaef0&lang=en_US HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 23:34:15,300 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.004
+2026-06-06 23:34:15,301 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 1 0.000 0.003
+2026-06-06 23:34:15,303 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.003
+2026-06-06 23:34:15,354 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "POST /web/action/load HTTP/1.1" 200 - 6 0.007 0.006
+2026-06-06 23:34:15,356 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.007 0.010
+2026-06-06 23:34:15,360 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.004
+2026-06-06 23:34:15,371 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "POST /mail/data HTTP/1.1" 200 - 17 0.009 0.015
+2026-06-06 23:34:15,418 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "POST /mail/data HTTP/1.1" 200 - 34 0.010 0.023
+2026-06-06 23:34:15,500 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "POST /discuss/channel/messages HTTP/1.1" 200 - 20 0.004 0.009
+2026-06-06 23:34:15,527 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:15] "GET /web/bundle/web.assets_emoji?lang=en_US HTTP/1.1" 200 - 1 0.000 0.001
+2026-06-06 23:34:17,104 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:17] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2026-06-06 23:34:19,846 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "GET /odoo HTTP/1.1" 200 - 24 0.004 0.010
+2026-06-06 23:34:19,867 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:34:19,913 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "GET /web/webclient/translations?hash=c5fe5d127f1d313eae82d07ea71c138475bbaef0&lang=en_US HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 23:34:19,916 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.002 0.004
+2026-06-06 23:34:19,918 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 1 0.000 0.003
+2026-06-06 23:34:19,920 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.003
+2026-06-06 23:34:19,972 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.006 0.009
+2026-06-06 23:34:19,974 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "POST /web/action/load HTTP/1.1" 200 - 6 0.006 0.006
+2026-06-06 23:34:19,977 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.008
+2026-06-06 23:34:19,982 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:19] "POST /mail/data HTTP/1.1" 200 - 17 0.008 0.010
+2026-06-06 23:34:20,029 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:20] "POST /mail/data HTTP/1.1" 200 - 34 0.005 0.015
+2026-06-06 23:34:20,115 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:20] "POST /discuss/channel/messages HTTP/1.1" 200 - 20 0.004 0.009
+2026-06-06 23:34:20,143 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:20] "GET /web/bundle/web.assets_emoji?lang=en_US HTTP/1.1" 200 - 1 0.001 0.001
+2026-06-06 23:34:21,715 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:21] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.001
+2026-06-06 23:34:28,224 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "POST /web/action/load HTTP/1.1" 200 - 12 0.010 0.016
+2026-06-06 23:34:28,329 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "POST /web/dataset/call_kw/sale.order/get_views#sale.order.get_views HTTP/1.1" 200 - 106 0.024 0.058
+2026-06-06 23:34:28,349 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "POST /web/dataset/call_kw/sale.order/web_search_read#sale.order.web_search_read HTTP/1.1" 200 - 6 0.002 0.003
+2026-06-06 23:34:28,399 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "POST /web/dataset/call_kw/res.currency/read#res.currency.read HTTP/1.1" 200 - 8 0.003 0.007
+2026-06-06 23:34:28,454 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "GET /sale/static/src/img/sales_quotation_thumbnail.webp HTTP/1.1" 200 - 0 0.000 0.003
+2026-06-06 23:34:28,472 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 8 0.009 0.010
+2026-06-06 23:34:28,480 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "GET /web/image/res.users/1/avatar_128 HTTP/1.1" 200 - 8 0.010 0.018
+2026-06-06 23:34:28,481 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "GET /web/image/res.users/3/avatar_128 HTTP/1.1" 200 - 8 0.016 0.012
+2026-06-06 23:34:28,482 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "GET /web/image/res.users/4/avatar_128 HTTP/1.1" 200 - 8 0.009 0.021
+2026-06-06 23:34:28,487 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:28] "GET /web/image/res.users/5/avatar_128 HTTP/1.1" 200 - 6 0.010 0.025
+2026-06-06 23:34:30,865 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:30] "POST /web/dataset/call_kw/sale.order/onchange#sale.order.onchange HTTP/1.1" 200 - 12 0.004 0.010
+2026-06-06 23:34:30,905 112825 INFO ? werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:30] "GET /partner_autocomplete/static/lib/jsvat.js HTTP/1.1" 200 - 0 0.000 0.001
+2026-06-06 23:34:42,859 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:34:42] "POST /web/session/account HTTP/1.1" 200 - 2 0.001 0.004
+2026-06-06 23:35:05,805 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:05] "GET / HTTP/1.1" 303 - 1 0.000 0.002
+2026-06-06 23:35:05,822 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:05] "GET /odoo HTTP/1.1" 200 - 24 0.003 0.010
+2026-06-06 23:35:05,860 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:05] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:35:05,879 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:05] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.001 0.003
+2026-06-06 23:35:05,961 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:05] "GET /web/webclient/translations?hash=c5fe5d127f1d313eae82d07ea71c138475bbaef0&lang=en_US HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:35:05,963 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:05] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:35:06,029 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:06] "POST /web/action/load HTTP/1.1" 200 - 6 0.003 0.005
+2026-06-06 23:35:06,031 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:06] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.003 0.006
+2026-06-06 23:35:06,055 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:06] "POST /mail/data HTTP/1.1" 200 - 17 0.003 0.007
+2026-06-06 23:35:06,102 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:06] "POST /mail/data HTTP/1.1" 200 - 34 0.008 0.019
+2026-06-06 23:35:06,205 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:06] "POST /discuss/channel/messages HTTP/1.1" 200 - 20 0.004 0.010
+2026-06-06 23:35:06,232 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:06] "GET /web/bundle/web.assets_emoji?lang=en_US HTTP/1.1" 200 - 1 0.000 0.001
+2026-06-06 23:35:07,785 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:07] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2026-06-06 23:35:13,850 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:13] "GET /web/session/logout HTTP/1.1" 303 - 3 0.001 0.003
+2026-06-06 23:35:13,857 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:13] "GET /odoo HTTP/1.1" 303 - 1 0.000 0.001
+2026-06-06 23:35:13,960 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:13] "GET /web/login?redirect=/odoo? HTTP/1.1" 200 - 39 0.008 0.093
+2026-06-06 23:35:13,981 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:13] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.002 0.002
+2026-06-06 23:35:14,634 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/2def948/web.assets_frontend.min.css (id:529) 
+2026-06-06 23:35:14,635 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Deleting attachments [14] (matching /web/assets/_______/web.assets_frontend.min.css) because it was replaced with /web/assets/2def948/web.assets_frontend.min.css 
+2026-06-06 23:35:14,642 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:14] "GET /web/assets/2def948/web.assets_frontend.min.css HTTP/1.1" 200 - 11 0.013 0.652
+2026-06-06 23:35:15,060 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/fc182a1/web.assets_frontend_lazy.min.js (id:530) 
+2026-06-06 23:35:15,061 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Deleting attachments [16] (matching /web/assets/_______/web.assets_frontend_lazy.min.js) because it was replaced with /web/assets/fc182a1/web.assets_frontend_lazy.min.js 
+2026-06-06 23:35:15,067 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:15] "GET /web/assets/fc182a1/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 11 0.003 0.403
+2026-06-06 23:35:15,140 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:15] "GET /website/translations?hash=&lang= HTTP/1.1" 200 - 5 0.001 0.003
+2026-06-06 23:35:16,864 112825 INFO rd-demo odoo.addons.base.models.res_users: Login successful for login:admin from 127.0.0.1 
+2026-06-06 23:35:16,868 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:16] "POST /web/login HTTP/1.1" 303 - 22 0.004 0.402
+2026-06-06 23:35:16,873 112825 INFO rd-demo odoo.addons.base.models.res_device: User 2 inserts device log (uJK01hxa19LndvfitdMrbO059ijDiqccUwNmKt3mSS) 
+2026-06-06 23:35:16,887 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:16] "GET /odoo HTTP/1.1" 200 - 24 0.003 0.011
+2026-06-06 23:35:16,903 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:16] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 23:35:16,958 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:16] "GET /web/webclient/translations?hash=c5fe5d127f1d313eae82d07ea71c138475bbaef0&lang=en_US HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 23:35:16,959 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:16] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.003 0.004
+2026-06-06 23:35:16,960 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:16] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 1 0.000 0.003
+2026-06-06 23:35:17,018 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:17] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.004 0.008
+2026-06-06 23:35:17,019 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:17] "POST /web/action/load HTTP/1.1" 200 - 6 0.006 0.007
+2026-06-06 23:35:17,024 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:17] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.008
+2026-06-06 23:35:17,030 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:17] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:35:17,032 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:17] "POST /mail/data HTTP/1.1" 200 - 17 0.006 0.014
+2026-06-06 23:35:17,076 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:17] "POST /mail/data HTTP/1.1" 200 - 34 0.009 0.022
+2026-06-06 23:35:17,155 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:17] "POST /discuss/channel/messages HTTP/1.1" 200 - 20 0.004 0.009
+2026-06-06 23:35:17,186 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:17] "GET /web/bundle/web.assets_emoji?lang=en_US HTTP/1.1" 200 - 1 0.000 0.001
+2026-06-06 23:35:31,911 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:31] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.004
+2026-06-06 23:35:31,947 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:31] "POST /web/dataset/call_kw/discuss.channel/get_views#discuss.channel.get_views HTTP/1.1" 200 - 29 0.005 0.015
+2026-06-06 23:35:31,964 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:31] "POST /web/dataset/call_kw/discuss.channel/web_search_read#discuss.channel.web_search_read HTTP/1.1" 200 - 7 0.001 0.004
+2026-06-06 23:35:32,011 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:32] "GET /web/image/discuss.channel/1/avatar_128?unique=1780785725000 HTTP/1.1" 200 - 4 0.003 0.007
+2026-06-06 23:35:32,011 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:32] "GET /web/image/discuss.channel/2/avatar_128?unique=1780785725000 HTTP/1.1" 200 - 4 0.002 0.007
+2026-06-06 23:35:34,218 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:34] "POST /discuss/channel/messages HTTP/1.1" 200 - 20 0.004 0.009
+2026-06-06 23:35:34,221 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:34] "POST /discuss/channel/members HTTP/1.1" 200 - 4 0.001 0.003
+2026-06-06 23:35:34,273 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:34] "GET /web/bundle/mail.assets_message_email?lang=en_US HTTP/1.1" 200 - 2 0.001 0.003
+2026-06-06 23:35:34,287 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/ff942db/mail.assets_message_email.min.css (id:531) 
+2026-06-06 23:35:34,288 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:34] "POST /discuss/channel/mark_as_read HTTP/1.1" 200 - 16 0.004 0.010
+2026-06-06 23:35:34,289 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:34] "GET /web/assets/ff942db/mail.assets_message_email.min.css HTTP/1.1" 200 - 8 0.002 0.007
+2026-06-06 23:35:39,127 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:39] "POST /web/action/load HTTP/1.1" 200 - 6 0.001 0.003
+2026-06-06 23:35:39,145 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:39] "GET /web/bundle/spreadsheet.o_spreadsheet?lang=en_US HTTP/1.1" 200 - 3 0.001 0.008
+2026-06-06 23:35:39,276 112825 INFO rd-demo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/4263ecb/spreadsheet.o_spreadsheet.min.js (id:532) 
+2026-06-06 23:35:39,278 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:39] "GET /web/assets/4263ecb/spreadsheet.o_spreadsheet.min.js HTTP/1.1" 200 - 8 0.002 0.129
+2026-06-06 23:35:39,408 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:39] "POST /web/dataset/call_kw/spreadsheet.dashboard.group/web_search_read#spreadsheet.dashboard.group.web_search_read HTTP/1.1" 200 - 18 0.006 0.007
+2026-06-06 23:35:39,422 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:39] "GET /spreadsheet/dashboard/data/2 HTTP/1.1" 200 - 12 0.004 0.006
+2026-06-06 23:35:42,350 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:42] "POST /web/dataset/call_kw/spreadsheet.dashboard.group/web_search_read#spreadsheet.dashboard.group.web_search_read HTTP/1.1" 200 - 7 0.002 0.005
+2026-06-06 23:35:42,360 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:42] "GET /spreadsheet/dashboard/data/2 HTTP/1.1" 200 - 8 0.002 0.004
+2026-06-06 23:35:44,777 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:44] "POST /web/dataset/call_kw/spreadsheet.dashboard.group/web_search_read#spreadsheet.dashboard.group.web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2026-06-06 23:35:44,785 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:44] "GET /spreadsheet/dashboard/data/2 HTTP/1.1" 200 - 8 0.002 0.004
+2026-06-06 23:35:45,244 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:45] "POST /web/dataset/call_kw/spreadsheet.dashboard.group/web_search_read#spreadsheet.dashboard.group.web_search_read HTTP/1.1" 200 - 7 0.002 0.004
+2026-06-06 23:35:45,252 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:45] "GET /spreadsheet/dashboard/data/2 HTTP/1.1" 200 - 8 0.002 0.004
+2026-06-06 23:35:58,151 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:58] "POST /web/action/load HTTP/1.1" 200 - 12 0.006 0.012
+2026-06-06 23:35:58,184 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:58] "POST /web/dataset/call_kw/mail.activity/get_views#mail.activity.get_views HTTP/1.1" 200 - 24 0.005 0.012
+2026-06-06 23:35:58,196 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:35:58] "POST /web/dataset/call_kw/mail.activity/web_search_read#mail.activity.web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:36:49,636 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:36:49] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2026-06-06 23:37:49,477 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:37:49] "POST /mail/data HTTP/1.1" 200 - 5 0.001 0.003
+2026-06-06 23:37:50,796 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:37:50] "POST /web/action/load HTTP/1.1" 200 - 12 0.007 0.014
+2026-06-06 23:37:50,825 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:37:50] "POST /web/dataset/call_kw/mail.activity/get_views#mail.activity.get_views HTTP/1.1" 200 - 11 0.003 0.009
+2026-06-06 23:37:50,835 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:37:50] "POST /web/dataset/call_kw/mail.activity/web_search_read#mail.activity.web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:37:59,709 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:37:59] "POST /discuss/channel/messages HTTP/1.1" 200 - 5 0.001 0.003
+2026-06-06 23:38:32,422 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:32] "POST /web/action/load HTTP/1.1" 200 - 13 0.002 0.005
+2026-06-06 23:38:32,444 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:32] "POST /web/dataset/call_kw/sale.order/onchange#sale.order.onchange HTTP/1.1" 200 - 8 0.002 0.008
+2026-06-06 23:38:38,241 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET / HTTP/1.1" 303 - 1 0.001 0.002
+2026-06-06 23:38:38,259 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /odoo HTTP/1.1" 200 - 24 0.004 0.011
+2026-06-06 23:38:38,293 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /web/webclient/load_menus HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:38:38,373 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 6 0.002 0.004
+2026-06-06 23:38:38,374 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /web/webclient/translations?hash=c5fe5d127f1d313eae82d07ea71c138475bbaef0&lang=en_US HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 23:38:38,377 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 23:38:38,378 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 3 0.001 0.002
+2026-06-06 23:38:38,440 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "POST /web/action/load HTTP/1.1" 200 - 6 0.006 0.006
+2026-06-06 23:38:38,440 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.005 0.008
+2026-06-06 23:38:38,446 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.004
+2026-06-06 23:38:38,452 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "POST /mail/data HTTP/1.1" 200 - 17 0.006 0.011
+2026-06-06 23:38:38,502 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "POST /mail/data HTTP/1.1" 200 - 34 0.009 0.021
+2026-06-06 23:38:38,598 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "POST /discuss/channel/messages HTTP/1.1" 200 - 20 0.004 0.009
+2026-06-06 23:38:38,603 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "POST /discuss/channel/members HTTP/1.1" 200 - 4 0.001 0.002
+2026-06-06 23:38:38,668 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /web/bundle/mail.assets_message_email?lang=en_US HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:38:38,669 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:38] "GET /web/bundle/web.assets_emoji?lang=en_US HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:38:40,239 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:38:40] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2026-06-06 23:39:04,922 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:04] "GET /web/bundle/spreadsheet.o_spreadsheet?lang=en_US HTTP/1.1" 200 - 1 0.001 0.002
+2026-06-06 23:39:04,923 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:04] "POST /web/action/load HTTP/1.1" 200 - 6 0.005 0.007
+2026-06-06 23:39:05,082 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:05] "POST /web/dataset/call_kw/spreadsheet.dashboard.group/web_search_read#spreadsheet.dashboard.group.web_search_read HTTP/1.1" 200 - 7 0.002 0.005
+2026-06-06 23:39:05,096 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:05] "GET /spreadsheet/dashboard/data/2 HTTP/1.1" 200 - 8 0.002 0.004
+2026-06-06 23:39:10,036 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:10] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.004
+2026-06-06 23:39:10,076 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:10] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 38 0.008 0.021
+2026-06-06 23:39:10,087 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:10] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.003
+2026-06-06 23:39:10,099 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:10] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.007 0.008
+2026-06-06 23:39:10,103 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:10] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.001
+2026-06-06 23:39:10,109 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:10] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.002 0.020
+2026-06-06 23:39:10,145 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:10] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:14,730 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:14] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 5 0.003 0.007
+2026-06-06 23:39:14,739 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.009 0.011
+2026-06-06 23:39:14,739 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:14] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:15,935 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:15] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.007 0.008
+2026-06-06 23:39:15,953 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:15] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.004
+2026-06-06 23:39:15,959 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.019 0.022
+2026-06-06 23:39:16,878 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 6 0.002 0.004
+2026-06-06 23:39:16,886 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:16] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:16,886 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.007 0.008
+2026-06-06 23:39:19,657 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:19] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 6 0.007 0.010
+2026-06-06 23:39:19,670 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:19] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:19,673 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.019
+2026-06-06 23:39:20,963 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:20] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 1 0.002 0.527
+2026-06-06 23:39:20,972 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.540
+2026-06-06 23:39:20,975 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:20] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:21,906 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:21] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.002
+2026-06-06 23:39:22,308 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:22] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 38 0.015 0.390
+2026-06-06 23:39:22,328 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:22] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:23,668 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:23] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.001 0.003
+2026-06-06 23:39:23,676 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:23] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:23,679 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:23] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.007 0.008
+2026-06-06 23:39:25,972 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:25] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.002 0.003
+2026-06-06 23:39:25,980 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:25] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:25,982 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:25] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.008 0.008
+2026-06-06 23:39:26,935 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:26] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.005 0.009
+2026-06-06 23:39:26,946 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:26] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:26,949 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.012 0.017
+2026-06-06 23:39:27,531 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:27] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 6 0.006 0.013
+2026-06-06 23:39:27,542 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:27] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:27,545 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:27] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.016 0.018
+2026-06-06 23:39:28,360 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:28] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.007 0.008
+2026-06-06 23:39:28,372 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:28] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:28,375 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:28] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.018
+2026-06-06 23:39:31,834 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.022
+2026-06-06 23:39:31,842 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:31] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2026-06-06 23:39:31,847 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:31] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.001
+2026-06-06 23:39:33,615 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:33] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.003 0.005
+2026-06-06 23:39:33,623 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:33] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:33,624 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.008 0.009
+2026-06-06 23:39:34,578 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.004 0.012
+2026-06-06 23:39:34,589 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:34] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-06 23:39:34,592 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [06/Jun/2026 23:39:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.018
+2026-06-06 23:42:55,304 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2026-06-06 23:42:55,330 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-06-06 23:42:55,342 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2026-06-06 23:42:55,360 112825 INFO rd-demo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) fully done (#loop 1; done 0; remaining 0; duration 0.02s) 
+2026-06-07 00:23:56,894 112825 INFO rd-demo odoo.service.server: Initiating server reload 
+2026-06-07 00:23:57,306 112825 INFO rd-demo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2026-06-07 00:23:57,309 112825 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-06-07 00:23:57,319 112825 INFO ? odoo.service.server: cron1 max age (0s) reached, releasing connection. 
+2026-06-07 00:23:57,567 112825 WARNING ? odoo.tools.config: option db_host reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-07 00:23:57,567 112825 WARNING ? odoo.tools.config: option db_port reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-07 00:23:57,567 112825 WARNING ? odoo.tools.config: option db_password reads 'False' in the config file at /home/isaac/src/odoo/odoo.conf but isn't a boolean option, skip 
+2026-06-07 00:23:57,567 112825 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/enterprise', skipped 
+2026-06-07 00:23:57,567 112825 WARNING ? odoo.tools.config: option addons_path, no such directory '/home/isaac/src/tutorials', skipped 
+2026-06-07 00:23:57,567 112825 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-06-07 00:23:57,568 112825 INFO ? odoo: Odoo version 19.0 
+2026-06-07 00:23:57,568 112825 INFO ? odoo: Using configuration file at /home/isaac/src/odoo/odoo.conf 
+2026-06-07 00:23:57,568 112825 INFO ? odoo: addons paths: _NamespacePath(['/home/isaac/src/odoo/odoo/addons', '/home/isaac/.local/share/Odoo/addons/19.0', '/home/isaac/src/odoo/addons']) 
+2026-06-07 00:23:57,568 112825 INFO ? odoo: database: isaac@default:default 
+2026-06-07 00:23:57,839 112825 INFO ? odoo.service.server: HTTP service (werkzeug) running on Se7s0:8069 
+2026-06-07 00:23:57,848 112825 INFO rd-demo odoo.modules.loading: loading 1 modules... 
+2026-06-07 00:23:57,851 112825 INFO rd-demo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-06-07 00:23:57,862 112825 INFO rd-demo odoo.modules.loading: loading 56 modules... 
+2026-06-07 00:23:58,262 112825 INFO rd-demo odoo.modules.loading: 56 modules loaded in 0.40s, 0 queries (+0 extra) 
+2026-06-07 00:23:58,352 112825 INFO rd-demo odoo.modules.loading: Modules loaded. 
+2026-06-07 00:23:58,375 112825 INFO rd-demo odoo.registry: Registry loaded in 0.535s 
+2026-06-07 00:23:59,665 112825 INFO rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-06-07 00:23:59,684 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:23:59] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 6 0.003 0.017
+2026-06-07 00:23:59,695 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:23:59] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.001
+2026-06-07 00:24:00,007 112825 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-06-07 00:24:49,369 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "GET /odoo/apps HTTP/1.1" 200 - 75 0.014 0.165
+2026-06-07 00:24:49,414 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "GET /web/webclient/load_menus HTTP/1.1" 200 - 14 0.003 0.009
+2026-06-07 00:24:49,642 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.002 0.004
+2026-06-07 00:24:49,651 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "GET /web/bundle/web_tour.interactive?lang=en_US HTTP/1.1" 200 - 3 0.001 0.005
+2026-06-07 00:24:49,656 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "GET /web/webclient/translations?hash=c5fe5d127f1d313eae82d07ea71c138475bbaef0&lang=en_US HTTP/1.1" 200 - 2 0.003 0.017
+2026-06-07 00:24:49,658 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.005 0.006
+2026-06-07 00:24:49,753 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.007 0.014
+2026-06-07 00:24:49,776 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.009 0.008
+2026-06-07 00:24:49,799 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.005
+2026-06-07 00:24:49,804 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "POST /mail/data HTTP/1.1" 200 - 27 0.038 0.020
+2026-06-07 00:24:49,834 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.051 0.023
+2026-06-07 00:24:49,835 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.009
+2026-06-07 00:24:49,855 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 41 0.047 0.067
+2026-06-07 00:24:49,872 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 4 0.011 0.094
+2026-06-07 00:24:49,895 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:49] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.001 0.002
+2026-06-07 00:24:51,597 112825 INFO rd-demo werkzeug: 127.0.0.1 - - [07/Jun/2026 00:24:51] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
+2026-06-07 00:25:32,437 112825 INFO rd-demo odoo.service.server: Initiating shutdown 
+2026-06-07 00:25:32,437 112825 INFO rd-demo odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-06-07 00:25:32,691 112825 INFO rd-demo odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 7 connections  
+2026-06-07 00:25:32,693 112825 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
