@@ -7,25 +7,57 @@
     <record id="action_hms_patient" model="ir.actions.act_window">
         <field name="name">Patients</field>
         <field name="res_model">hms.patient</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="action_hms_patient_list_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="10"/>
+        <field name="view_mode">list</field>
+        <field name="act_window_id" ref="action_hms_patient"/>
+    </record>
+
+    <record id="action_hms_patient_form_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="20"/>
+        <field name="view_mode">form</field>
+        <field name="act_window_id" ref="action_hms_patient"/>
     </record>
 
     <menuitem id="hms_menu_patient_action" name="Manage Patients"
               parent="hms_menu_patient" action="action_hms_patient"/>
 
-    <!-- Tree View -->
+    <!-- Search View -->
+    <record id="view_hms_patient_search" model="ir.ui.view">
+        <field name="name">hms.patient.search</field>
+        <field name="model">hms.patient</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="first_name"/>
+                <field name="last_name"/>
+                <field name="department_id"/>
+                <field name="doctor_ids"/>
+                <filter string="Undetermined" name="state_undetermined" domain="[('state','=','undetermined')]"/>
+                <filter string="Good" name="state_good" domain="[('state','=','good')]"/>
+                <filter string="Fair" name="state_fair" domain="[('state','=','fair')]"/>
+                <filter string="Serious" name="state_serious" domain="[('state','=','serious')]"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- List View -->
     <record id="view_hms_patient_list" model="ir.ui.view">
-    <field name="name">hms.patient.list</field>
-    <field name="model">hms.patient</field>
-    <field name="arch" type="xml">
-        <list>
-            <field name="first_name"/>
-            <field name="last_name"/>
-            <field name="birth_date"/>
-            <field name="blood_type"/>
-            <field name="pcr"/>
-        </list>
-    </field>
+        <field name="name">hms.patient.list</field>
+        <field name="model">hms.patient</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="first_name"/>
+                <field name="last_name"/>
+                <field name="birth_date"/>
+                <field name="blood_type"/>
+                <field name="pcr"/>
+                <field name="state"/>
+                <field name="department_id"/>
+            </list>
+        </field>
     </record>
 
     <!-- Form View -->
@@ -34,18 +66,42 @@
         <field name="model">hms.patient</field>
         <field name="arch" type="xml">
             <form>
+                <header>
+                    <field name="state" widget="statusbar"/>
+                </header>
                 <sheet>
                     <group>
-                        <field name="first_name"/>
-                        <field name="last_name"/>
-                        <field name="birth_date"/>
-                        <field name="blood_type"/>
-                        <field name="cr_ratio"/>
-                        <field name="pcr"/>
-                        <field name="address"/>
-                        <field name="history"/>
-                        <field name="image"/>
+                        <group>
+                            <field name="first_name"/>
+                            <field name="last_name"/>
+                            <field name="birth_date"/>
+                            <field name="age"/>
+                            <field name="blood_type"/>
+                        </group>
+                        <group>
+                            <field name="department_id" options="{'no_create': True}"/>
+                            <field name="department_capacity"/>
+                            <field name="doctor_ids" widget="many2many_tags" readonly="not department_id"/>
+                            <field name="pcr"/>
+                            <field name="cr_ratio"/>
+                            <field name="address"/>
+                            <field name="image"/>
+                        </group>
                     </group>
+                    <notebook>
+                        <page name="history" string="Medical History">
+                            <field name="history" invisible="age &lt; 50"/>
+                        </page>
+                        <page name="logs" string="Log History">
+                            <field name="log_ids" readonly="1">
+                                <list create="0" delete="0">
+                                    <field name="created_by"/>
+                                    <field name="date"/>
+                                    <field name="description"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
                 </sheet>
             </form>
         </field>

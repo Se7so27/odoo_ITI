@@ -8,7 +8,10 @@
     'author': 'Your Name',
     'depends': ['base'],
     'data': [
+        'security/ir.model.access.csv',
         'views/patient_views.xml',
+        'views/department_views.xml',
+        'views/doctors_views.xml',
     ],
     'installable': True,
     'application': True,
