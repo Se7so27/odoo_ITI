@@ -1,5 +1,5 @@
 <odoo>
-    <menuitem id="hms_menu_doctors" name="Doctors" parent="hms_menu_root"/>
+    <menuitem id="hms_menu_doctors" name="Doctors" parent="hms_menu_root" groups="hms.group_hms_manager"/>
 
     <record id="action_hms_doctors" model="ir.actions.act_window">
         <field name="name">Doctors</field>

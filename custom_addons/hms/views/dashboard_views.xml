@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="dashboard_record" model="hms.dashboard">
+        <field name="name">Dashboard</field>
+    </record>
+
+    <record id="action_hms_dashboard" model="ir.actions.act_window">
+        <field name="name">Dashboard</field>
+        <field name="res_model">hms.dashboard</field>
+        <field name="view_mode">form</field>
+        <field name="target">current</field>
+        <field name="res_id" eval="ref('hms.dashboard_record')"/>
+    </record>
+
+    <menuitem id="hms_menu_dashboard" name="Dashboard"
+              parent="hms_menu_root" action="action_hms_dashboard" sequence="1"/>
+
+    <record id="view_hms_dashboard_form" model="ir.ui.view">
+        <field name="name">hms.dashboard.form</field>
+        <field name="model">hms.dashboard</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_refresh_dashboard" type="object" string="Refresh"/>
+                </header>
+                <sheet>
+                    <div class="o_dashboard">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="o_dashboard_box text-center p-3">
+                                    <h3 class="o_dashboard_title">Patients</h3>
+                                    <field name="patient_count" class="o_dashboard_value"/>
+                                    <div class="mt-2">
+                                        <button name="%(action_hms_patient)d" type="action" string="View All" class="btn btn-primary"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="o_dashboard_box text-center p-3">
+                                    <h3 class="o_dashboard_title">Departments</h3>
+                                    <field name="department_count" class="o_dashboard_value"/>
+                                    <div class="mt-2">
+                                        <button name="%(action_hms_department)d" type="action" string="View All" class="btn btn-primary"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4" groups="hms.group_hms_manager">
+                                <div class="o_dashboard_box text-center p-3">
+                                    <h3 class="o_dashboard_title">Doctors</h3>
+                                    <field name="doctor_count" class="o_dashboard_value"/>
+                                    <div class="mt-2">
+                                        <button name="%(action_hms_doctors)d" type="action" string="View All" class="btn btn-primary"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <notebook>
+                        <page name="patients" string="Patients">
+                            <field name="patient_ids" readonly="1" nolabel="1">
+                                <list>
+                                    <field name="first_name"/>
+                                    <field name="last_name"/>
+                                    <field name="email"/>
+                                    <field name="birth_date"/>
+                                    <field name="blood_type"/>
+                                    <field name="state"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page name="departments" string="Departments">
+                            <field name="department_ids" readonly="1" nolabel="1">
+                                <list>
+                                    <field name="name"/>
+                                    <field name="capacity"/>
+                                    <field name="is_opened"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page name="doctors" string="Doctors" groups="hms.group_hms_manager">
+                            <field name="doctor_ids" readonly="1" nolabel="1">
+                                <list>
+                                    <field name="first_name"/>
+                                    <field name="last_name"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page name="logs" string="Recent Logs">
+                            <field name="patient_log_ids" readonly="1" nolabel="1">
+                                <list>
+                                    <field name="created_by"/>
+                                    <field name="date"/>
+                                    <field name="description"/>
+                                    <field name="patient_id"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

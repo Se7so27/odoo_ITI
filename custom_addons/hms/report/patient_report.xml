@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="report_patient_status" model="ir.actions.report">
+        <field name="name">Patient Status Report</field>
+        <field name="model">hms.patient</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">hms.report_patient_status_template</field>
+        <field name="report_file">hms.report_patient_status_template</field>
+        <field name="binding_model_id" ref="model_hms_patient"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <template id="report_patient_status_template">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h2>Patient Status Report</h2>
+                        <table class="table table-sm">
+                            <tr>
+                                <td><strong>Name</strong></td>
+                                <td t-esc="o.first_name + ' ' + o.last_name"/>
+                            </tr>
+                            <tr>
+                                <td><strong>Age</strong></td>
+                                <td t-esc="o.age"/>
+                            </tr>
+                            <tr>
+                                <td><strong>Birth date</strong></td>
+                                <td t-esc="o.birth_date"/>
+                            </tr>
+                            <tr>
+                                <td><strong>Email</strong></td>
+                                <td t-esc="o.email"/>
+                            </tr>
+                            <tr>
+                                <td><strong>Blood Type</strong></td>
+                                <td t-esc="o.blood_type"/>
+                            </tr>
+                            <tr>
+                                <td><strong>CR Ratio</strong></td>
+                                <td t-esc="o.cr_ratio"/>
+                            </tr>
+                            <tr>
+                                <td><strong>Department</strong></td>
+                                <td t-esc="o.department_id.name"/>
+                            </tr>
+                            <tr>
+                                <td><strong>Doctors</strong></td>
+                                <td>
+                                    <t t-foreach="o.doctor_ids" t-as="doc">
+                                        <t t-esc="doc.first_name + ' ' + doc.last_name"/>
+                                        <t t-if="not doc_last">, </t>
+                                    </t>
+                                </td>
+                            </tr>
+                        </table>
+                        <h3>Log History</h3>
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>User</th>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr t-foreach="o.log_ids" t-as="log">
+                                    <td t-esc="log.created_by.name"/>
+                                    <td t-esc="log.date"/>
+                                    <td t-esc="log.description"/>
+                                </tr>
+                                <tr t-if="not o.log_ids">
+                                    <td colspan="3">No log history available.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

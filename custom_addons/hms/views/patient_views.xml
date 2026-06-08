@@ -85,7 +85,7 @@
                         <group>
                             <field name="department_id" options="{'no_create': True}"/>
                             <field name="department_capacity"/>
-                            <field name="doctor_ids" widget="many2many_tags" readonly="not department_id"/>
+                            <field name="doctor_ids" widget="many2many_tags" readonly="not department_id" groups="hms.group_hms_manager"/>
                             <field name="pcr"/>
                             <field name="cr_ratio"/>
                             <field name="address"/>
