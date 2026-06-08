@@ -1,14 +1,20 @@
 from odoo import models, fields, api
 from odoo.exceptions import ValidationError
 from datetime import date
+import re
 
 class Patient(models.Model):
     _name = 'hms.patient'
     _description = 'Hospital Patient'
 
+    _sql_constraints = [
+        ('unique_email', 'UNIQUE(email)', 'Email address must be unique.'),
+    ]
+
     first_name = fields.Char(string="First Name", required=True)
     last_name = fields.Char(string="Last Name", required=True)
     birth_date = fields.Date(string="Birth Date")
+    email = fields.Char(string="Email")
     history = fields.Html(string="Medical History")
     cr_ratio = fields.Float(string="Creatine Ratio")
     blood_type = fields.Selection([
@@ -60,6 +66,25 @@ class Patient(models.Model):
                     }
                 }
 
+    @api.constrains('email')
+    def _check_email_valid(self):
+        for record in self:
+            if record.email:
+                email_regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+                if not re.match(email_regex, record.email):
+                    raise ValidationError("Please enter a valid email address.")
+
+    @api.constrains('email')
+    def _check_email_unique(self):
+        for record in self:
+            if record.email:
+                existing = self.search([
+                    ('email', '=', record.email),
+                    ('id', '!=', record.id),
+                ], limit=1)
+                if existing:
+                    raise ValidationError("Email address must be unique.")
+
     @api.constrains('department_id')
     def _check_department_opened(self):
         for record in self:
@@ -71,6 +96,24 @@ class Patient(models.Model):
         for record in self:
             if record.pcr and not record.cr_ratio:
                 raise ValidationError("CR Ratio is required when PCR test is checked.")
+
+    def action_add_patient(self):
+        return {
+            'type': 'ir.actions.act_window',
+            'name': 'Patients',
+            'res_model': 'hms.patient',
+            'view_mode': 'list,form',
+            'target': 'current',
+        }
+
+    def action_update_patient(self):
+        return {
+            'type': 'ir.actions.act_window',
+            'name': 'Patients',
+            'res_model': 'hms.patient',
+            'view_mode': 'list,form',
+            'target': 'current',
+        }
 
     def write(self, vals):
         if 'state' in vals:

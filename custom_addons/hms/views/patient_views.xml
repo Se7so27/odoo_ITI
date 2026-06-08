@@ -51,6 +51,7 @@
             <list>
                 <field name="first_name"/>
                 <field name="last_name"/>
+                <field name="email"/>
                 <field name="birth_date"/>
                 <field name="blood_type"/>
                 <field name="pcr"/>
@@ -68,12 +69,15 @@
             <form>
                 <header>
                     <field name="state" widget="statusbar"/>
+                    <button name="action_add_patient" type="object" string="Add" class="btn-primary" invisible="id"/>
+                    <button name="action_update_patient" type="object" string="Update" invisible="not id"/>
                 </header>
                 <sheet>
                     <group>
                         <group>
                             <field name="first_name"/>
                             <field name="last_name"/>
+                            <field name="email"/>
                             <field name="birth_date"/>
                             <field name="age"/>
                             <field name="blood_type"/>

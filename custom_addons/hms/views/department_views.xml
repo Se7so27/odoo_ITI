@@ -39,6 +39,10 @@
         <field name="model">hms.department</field>
         <field name="arch" type="xml">
             <form>
+                <header>
+                    <button name="action_add_department" type="object" string="Add" class="btn-primary" invisible="id"/>
+                    <button name="action_update_department" type="object" string="Update" invisible="not id"/>
+                </header>
                 <sheet>
                     <group>
                         <field name="name"/>
